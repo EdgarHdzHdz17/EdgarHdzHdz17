@@ -3,7 +3,7 @@
 Hi, I'm Edgar! I am an engineer graduated from UNAM
 </p>
 
-<img src="[[https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/issues/1#issue-1997646056)](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)" width="30"></br>
+<img src="[[https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/issues/1#issue-1997646056)](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)"></br>
 
 <p >	
 	<em>Software Enginner at <a href="https://www.unam.mx/">Universidad Nacional Autonoma de México</a> 
