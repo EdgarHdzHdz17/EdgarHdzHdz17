@@ -7,7 +7,7 @@ Hi, I'm Edgar! I am an engineer graduated from UNAM
 
 <p >	
 	<em>Software Enginner at <a href="https://www.unam.mx/">Universidad Nacional Autonoma de México</a> 
-	<img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
+	<img src="[https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/issues/1#issue-1997646056)" width="30"></br>
 	</em>
 	<em>Front-End Jr Developer
 	</em>
