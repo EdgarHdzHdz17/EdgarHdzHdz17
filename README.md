@@ -2,8 +2,8 @@
 
 ![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
 
-<h1 align="center">Hi 👋, I'm Edgar Hernández</h1>
-<h3 align="center">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</h3>
+<h2 align="left">Hi, I'm Edgar Hernández</h2>
+<h3 align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</h3>
 
 ```javascript
 const aboutMe = {
