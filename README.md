@@ -1,4 +1,7 @@
 <h1 align="center">WELCOME :wave:</h1>
+
+![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
+
 <p align="left">
 Hi, I'm Edgar! I am an Enginner UNAM
 </p>
@@ -6,8 +9,6 @@ Hi, I'm Edgar! I am an Enginner UNAM
 <p align="left">
 Frontend developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.
 </p>
-
-![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
 
 ```javascript
 const aboutMe = {
