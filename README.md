@@ -20,6 +20,9 @@ const aboutMe = {
    },
 };
 ```
+<p align="center">
+ <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" style="background-color: transparent;" />
+</p>
 
 <p align="center">
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -28,8 +31,6 @@ const aboutMe = {
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 </p>
 
-<p align="center">
- <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" style="background-color: transparent;" />
-</p>
+
 
 
