@@ -29,7 +29,8 @@ const aboutMe = {
 </p>
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" style="background-color: black;" />
+
 </p>
 
 
