@@ -22,18 +22,6 @@
 
 - ⚡ Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
-```javascript
-const aboutMe = {
-   code: [HTML, CSS, JavaScript],
-   technologies: {
-      frontEnd: {
-         js: ["React-ViteJS", "Expo React Native"],
-         css: ["Bootstrap,Tailwind"]
-      },
-   },
-};
-```
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">
  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" style="background-color: transparent;" />
