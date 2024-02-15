@@ -14,8 +14,8 @@ const aboutMe = {
    code: [HTML, CSS, JavaScript],
    technologies: {
       frontEnd: {
-         js: ["React", "Expo React Native"],
-         css: ["Bootstrap"]
+         js: ["React-ViteJS", "Expo React Native"],
+         css: ["Bootstrap,Tailwind"]
       },
    },
 };
