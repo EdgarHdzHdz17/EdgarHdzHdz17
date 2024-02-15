@@ -29,7 +29,7 @@ const aboutMe = {
 </p>
 
 <p align="center" style="background-color: #f0f7ff;">
-  <img align="center" style="background-color: #f0f7ff src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" />
+  <img align="center" style="background-color: #f0f7ff; src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" />
 </p>
 
 
