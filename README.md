@@ -23,7 +23,7 @@
 - ⚡ Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left" style="background-color: #fff;">
+<p align="center" style="background-color: #fff;">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17"/>
 </p>
 
