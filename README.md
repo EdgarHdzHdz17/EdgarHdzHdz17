@@ -18,7 +18,7 @@
 
 - 📫 How to reach me **edgarhdzhdz17@hotmail.com**
 
-- 📄 Know about my experiences [Frontend Developer](Frontend Developer)
+- 📄 Know about my experiences [Frontend Developer]
 
 - ⚡ Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
