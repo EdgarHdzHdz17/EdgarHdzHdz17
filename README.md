@@ -12,13 +12,13 @@
 
 - 🤝 I’m looking for help with **Projects that provide me with experience**
 
-- 📝 I regularly read articles about [AI,Developers,Productivity](AI,Developers,Productivity)
+- 📝 I regularly read articles about AI,Developers,Productivity
 
 - 💬 Ask me about **ReactJS & Reac Native**
 
 - 📫 How to reach me **edgarhdzhdz17@hotmail.com**
 
-- 📄 Know about my experiences [Frontend Developer]
+- 📄 Know about my experiences Frontend Developer
 
 - ⚡ Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
