@@ -4,7 +4,7 @@ Hi, I'm Edgar! I am an Enginner UNAM
 </p>
 
 <p align="left">
-FRONTEND DEVELOPER WITH 2 YEARS OF EXPERIENCE. MY GOAL IS TO CONTRIBUTE TO THE DEVELOPMENT OF WEBSITES AND FUNCTIONAL MOBILE APPS THAT OFFER VALUE TO USERS FINALS
+Frontend developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.
 </p>
 
 ![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
