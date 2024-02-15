@@ -28,7 +28,7 @@ const aboutMe = {
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 </p>
 
-<p align="center" style="background-image: url('https://beecrowd.io/wp-content/uploads/2022/08/Beecrowd-Agosto-6-02-larger.png');">
+<p align="center" style="background-color: #f0f7ff;">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" />
 </p>
 
