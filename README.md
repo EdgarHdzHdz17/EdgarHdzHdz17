@@ -4,23 +4,23 @@
 
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-- 🔭 I’m currently working on **Fronted Developer**
+- 🧑🏻‍💻 I’m currently working on **Fronted Developer**
 
-- 🌱 I’m currently learning **React, React Native**
+- 📓 I’m currently learning **React, React Native**
 
-- 👯 I’m looking to collaborate on **Web and mobile application development**
+- 💻 I’m looking to collaborate on **Web and mobile application development**
 
-- 🤝 I’m looking for help with **Projects that provide me with experience**
+- 🏢 I’m looking for help with **Projects that provide me with experience**
 
 - 📝 I regularly read articles about **AI,Developers,Productivity**
 
 - 💬 Ask me about **ReactJS & Reac Native**
 
-- 📫 How to reach me **edgarhdzhdz17@hotmail.com**
+- 📩 How to reach me **edgarhdzhdz17@hotmail.com**
 
 - 📄 Know about my experiences **Frontend Developer**
 
-- ⚡ Fun fact **I am passionate about productivity and the development of projects that are functional for users**
+- 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="center" style="background-color: #fff;">
