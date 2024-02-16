@@ -4,7 +4,7 @@
 
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-- 🧑🏻‍💻 I’m currently working on **Fronted Developer**
+- 🧑🏻‍💻 I’m currently working on **Projects Frontend**
 
 - 📓 I’m currently learning **React, React Native**
 
