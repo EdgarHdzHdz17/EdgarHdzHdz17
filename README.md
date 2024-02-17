@@ -5,7 +5,7 @@
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
 <div>
-<img align="right" src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8" with="80" heigth="80" alt="Diseño sin título2" />
+<img align="right" src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/adc71e90-eb3f-42f2-86d1-b11372a10af1" alt="Diseño sin título2" />
 - 🧑🏻‍💻 I’m currently working on **Projects Frontend**
   
 - 📓 I’m currently learning **React, React Native**
