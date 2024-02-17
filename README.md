@@ -4,7 +4,7 @@
 
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-<img src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8" width="50" alt="Diseño sin título2" />
+<img align="right" src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8" width="100" alt="Diseño sin título2" />
 
 - 🧑🏻‍💻 I’m currently working on **Projects Frontend**
 
