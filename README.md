@@ -20,6 +20,8 @@
 
 - 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
+![Diseño sin título2](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8)
+
 <h3 align="left">Languages and Tools:</h3>
 <p align="center" style="background-color: #fff;">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="edgarhdzhdz17"/>
