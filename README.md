@@ -18,8 +18,6 @@
 
 - 📩 How to reach me **edgarhdzhdz17@hotmail.com**
 
-- 📄 Know about my experiences **Frontend Developer**
-
 - 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
 
 <h3 align="left">Languages and Tools:</h3>
