@@ -9,9 +9,9 @@
 
 <h3 align="left">About Me:</h3>
 
-- Engineering Degree at **Universidad Nacional Autonoma de México**
+- 🎓 Engineering Degree at **Universidad Nacional Autonoma de México**
   
-- I’m currently working on **Projects Frontend**
+- 🧑🏻‍💻 I’m currently working on **Projects Frontend**
 
 - 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
   
