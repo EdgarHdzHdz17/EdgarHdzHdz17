@@ -2,13 +2,22 @@
 
 ![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
 
+
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-<div>
 <img align="right" src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/adc71e90-eb3f-42f2-86d1-b11372a10af1" alt="Diseño sin título2" />
-- 🧑🏻‍💻 I’m currently working on **Projects Frontend**
+
+<h3 align="left">About Me:</h3>
+
+- Engineering Degree at **Universidad Nacional Autonoma de México**
+  
+- I’m currently working on **Projects Frontend**
+
+- 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
   
 - 📓 I’m currently learning **React, React Native**
+
+- 📓 Coming Soon **IOS Developer**
   
 - 💻 I’m looking to collaborate on **Web and mobile application development**
   
@@ -20,9 +29,6 @@
   
 - 📩 How to reach me **edgarhdzhdz17@hotmail.com**
   
-- 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
-</div>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="center" style="background-color: #fff;">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="edgarhdzhdz17"/>
