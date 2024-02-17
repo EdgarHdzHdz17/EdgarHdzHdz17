@@ -4,24 +4,21 @@
 
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-- 🧑🏻‍💻 I’m currently working on **Projects Frontend**
-
-- 📓 I’m currently learning **React, React Native**
-
-- 💻 I’m looking to collaborate on **Web and mobile application development**
-
-- 🏢 I’m looking for help with **Projects that provide me with experience**
-
-- 📝 I regularly read articles about **AI,Developers,Productivity**
-
-- 💬 Ask me about **ReactJS & Reac Native**
-
-- 📩 How to reach me **edgarhdzhdz17@hotmail.com**
-
-- 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
-
-<img src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8" alt="Diseño sin título2">
-
+<div style="display:flex;">
+    <div style="flex:1;">
+        - 🧑🏻‍💻 I’m currently working on **Projects Frontend**
+        - 📓 I’m currently learning **React, React Native**
+        - 💻 I’m looking to collaborate on **Web and mobile application development**
+        - 🏢 I’m looking for help with **Projects that provide me with experience**
+        - 📝 I regularly read articles about **AI,Developers,Productivity**
+        - 💬 Ask me about **ReactJS & Reac Native**
+        - 📩 How to reach me **edgarhdzhdz17@hotmail.com**
+        - 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
+    </div>
+    <div style="flex:1;">
+        <img src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/e4a6a81b-8516-485a-a91c-78df5f4c0ad8" alt="Diseño sin título2" />
+    </div>
+</div>
 
 
 
