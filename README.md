@@ -17,7 +17,7 @@
   
 - 📓 I’m currently learning **React, React Native**
 
-- 📓 Coming Soon **IOS Developer**
+- ⏳ Coming Soon **IOS Developer**
   
 - 💻 I’m looking to collaborate on **Web and mobile application development**
   
