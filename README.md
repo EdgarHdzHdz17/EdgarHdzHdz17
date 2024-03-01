@@ -9,7 +9,7 @@
 
 <h3 align="left">About Me:</h3>
 
-- 🎓 Engineering Degree at **Universidad Nacional Autonoma de México**
+- 🎓 Engineering Degree at **Universidad Nacional Autónoma de México**
   
 - 🧑🏻‍💻 I’m currently working on **Projects Frontend**
 
