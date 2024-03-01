@@ -19,13 +19,13 @@
 
 - ⏳ Coming soon: **IOS Developer**
   
-- 💻 I’m looking to collaborate on: **Web and mobile application development**
+- 💻 I’m looking to collaborate on: **Web and Mobile application development**
   
 - 🏢 I’m looking for help with: **Projects that provide me with experience**
   
 - 📝 I regularly read articles about: **AI,Developers,Productivity**
   
-- 💬 Ask me about: **ReactJS & Reac Native**
+- 💬 Ask me about: **ReactJS & React Native**
   
 - 📩 How to reach me: **edgarhdzhdz17@hotmail.com**
   
