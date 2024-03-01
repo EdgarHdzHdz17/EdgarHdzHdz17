@@ -9,25 +9,25 @@
 
 <h3 align="left">About Me:</h3>
 
-- 🎓 Engineering Degree at **Universidad Nacional Autónoma de México**
+- 🎓 Engineering Degree at: **Universidad Nacional Autónoma de México**
   
-- 🧑🏻‍💻 I’m currently working on **Projects Frontend**
+- 🧑🏻‍💻 I’m currently working on: **Projects Frontend**
 
-- 🎮 Fun fact **I am passionate about productivity and the development of projects that are functional for users**
+- 🎮 Fun fact: **I am passionate about productivity and the development of projects that are functional for users**
   
-- 📓 I’m currently learning **React, React Native**
+- 📓 I’m currently learning: **React, React Native**
 
-- ⏳ Coming soon **IOS Developer**
+- ⏳ Coming soon: **IOS Developer**
   
-- 💻 I’m looking to collaborate on **Web and mobile application development**
+- 💻 I’m looking to collaborate on: **Web and mobile application development**
   
-- 🏢 I’m looking for help with **Projects that provide me with experience**
+- 🏢 I’m looking for help with: **Projects that provide me with experience**
   
-- 📝 I regularly read articles about **AI,Developers,Productivity**
+- 📝 I regularly read articles about: **AI,Developers,Productivity**
   
-- 💬 Ask me about **ReactJS & Reac Native**
+- 💬 Ask me about: **ReactJS & Reac Native**
   
-- 📩 How to reach me **edgarhdzhdz17@hotmail.com**
+- 📩 How to reach me: **edgarhdzhdz17@hotmail.com**
   
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="45" height="45"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45"/> </a>
