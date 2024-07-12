@@ -46,7 +46,7 @@
   
 <h3 align="left">GitHub Analytics:</h3>
 <p align="center" style="background-color: #fff">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="edgarhdzhdz17"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&theme=github_dark&layout=compact" alt="edgarhdzhdz17"/>
 </p>
 
 <p align="center" style="background-color: #fff">
