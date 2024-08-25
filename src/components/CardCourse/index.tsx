@@ -2,6 +2,11 @@ import React from "react";
 import { PiCertificateFill } from "react-icons/pi";
 import ButtonLinkComponent from "../ButtonLink";
 
+const GitHubStyle = {
+  color: "#fff",
+  backgroundColor: "#333",
+};
+
 interface CardCourseComponentProps {
   title: string;
   date: string;
@@ -49,7 +54,7 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <ButtonLinkComponent name="GitHub" url={link} />
+        <ButtonLinkComponent name="GitHub" url={link} style={GitHubStyle} />
       </div>
     </div>
   );

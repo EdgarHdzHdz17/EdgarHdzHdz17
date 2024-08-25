@@ -1,5 +1,10 @@
 import ButtonLinkComponent from "../ButtonLink";
 
+const GitHubStyle = {
+  color: "#fff",
+  backgroundColor: "#333",
+};
+
 interface CardProjectComponentProps {
   title: string;
   description: string;
@@ -39,7 +44,7 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
           ))}
         </div>
         <div className="flex justify-center items-center">
-          <ButtonLinkComponent name="GitHub" url={link} />
+          <ButtonLinkComponent name="GitHub" url={link} style={GitHubStyle} />
         </div>
       </div>
     </div>

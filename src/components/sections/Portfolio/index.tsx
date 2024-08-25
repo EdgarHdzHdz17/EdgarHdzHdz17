@@ -1,14 +1,14 @@
 import data from "../../../datas/datawebproject/data.json";
 import CardProjectComponent from "../../CardProject/index";
 
-const WebProjects = () => {
+const Portfolio = () => {
   return (
-    <section className="w-full p-5">
+    <section className="w-full p-5 flex justify-center items-center">
       <div className="container ">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2 ">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Proyectos Web
+              Portfolio
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Durante mi aprendizaje y experiencia he creado varios sitios web
@@ -19,7 +19,7 @@ const WebProjects = () => {
               Además de practicar el consumo de API REST.
             </p>
           </div>
-          <div className="w-[70%] grid items-center gap-6 lg:grid-cols-3 lg:gap-12">
+          <div className="w-[90%] grid items-center gap-6 lg:grid-cols-3 lg:gap-12">
             {data.map((project, index) => (
               <CardProjectComponent
                 key={index}
@@ -37,4 +37,4 @@ const WebProjects = () => {
   );
 };
 
-export default WebProjects;
+export default Portfolio;

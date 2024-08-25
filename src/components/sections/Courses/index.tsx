@@ -3,10 +3,10 @@ import data from "../../../datas/datacourses/data.json";
 
 const Courses = () => {
   return (
-    <section className="w-full p-5 ">
+    <section className="w-full p-5 flex justify-center">
       <div className="container">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">
             Reconocimientos
           </h2>
           <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
