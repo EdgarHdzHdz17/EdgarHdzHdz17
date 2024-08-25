@@ -15,18 +15,18 @@ const LinkedinStyle = {
 const Biography: React.FC = () => {
   return (
     <>
-      <section className="w-full p-5 flex justify-center items-center">
+      <section className="w-full p-5 flex justify-center items-center ">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] ">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-center">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-center ">
                 Edgar Hernández Hernández
               </h1>
             </div>
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
-                  <h2 className="text-xl font-bold tracking-tighter sm:text-5xl lg:text-3xl">
+                  <h2 className="text-xl font-bold tracking-tighter sm:text-5xl lg:text-3xl text-gray-400">
                     Frontend Developer
                   </h2>
                   <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

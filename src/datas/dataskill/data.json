@@ -53,12 +53,12 @@
         "icon": "./src/assets/icons/github.svg"
       },
       {
-        "skill": "Figma",
-        "icon": "./src/assets/icons/figma.svg"
+        "skill": "Jira",
+        "icon": "./src/assets/icons/jira.svg"
       },
       {
-        "skill": "Notion",
-        "icon": "./src/assets/icons/notion.svg"
+        "skill": "Slack",
+        "icon": "./src/assets/icons/slack.svg"
       }
     ]
   },
@@ -66,19 +66,11 @@
     "title": "Extras",
     "skills": [
       {
-        "skill": "Slack",
-        "icon": "./src/assets/icons/git.svg"
-      },
-      {
-        "skill": "Scrum",
-        "icon": "./src/assets/icons/github.svg"
-      },
-      {
-        "skill": "Undefined",
+        "skill": "Figma",
         "icon": "./src/assets/icons/figma.svg"
       },
       {
-        "skill": "Undifined",
+        "skill": "Notion",
         "icon": "./src/assets/icons/notion.svg"
       }
     ]
