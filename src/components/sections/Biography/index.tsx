@@ -4,8 +4,8 @@ import Profile from "../../../assets/images/Perfil.png";
 const Biography: React.FC = () => {
   return (
     <>
-      <section className="w-full py-5 md:py-2 lg:py-2 ">
-        <div className="container px-4 md:px-6 ">
+      <section className="w-full p-5 ">
+        <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] ">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">

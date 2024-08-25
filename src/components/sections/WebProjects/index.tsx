@@ -3,10 +3,10 @@ import CardProjectComponent from "../../CardProject/index";
 
 const WebProjects = () => {
   return (
-    <section className="w-full py-12 md:py-10 lg:py-10 bg-muted ">
-      <div className="container px-4 md:px-6 ">
+    <section className="w-full p-5">
+      <div className="container ">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
+          <div className="space-y-2 ">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Proyectos Web
             </h2>
@@ -19,7 +19,7 @@ const WebProjects = () => {
               Además de practicar el consumo de API REST.
             </p>
           </div>
-          <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12 ">
+          <div className="w-[70%] grid items-center gap-6 lg:grid-cols-3 lg:gap-12">
             {data.map((project, index) => (
               <CardProjectComponent
                 key={index}

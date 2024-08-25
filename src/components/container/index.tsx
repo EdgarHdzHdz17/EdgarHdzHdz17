@@ -12,7 +12,7 @@ const Container = () => {
         <Biography></Biography>
         <Skills></Skills>
         <ProjectsWeb></ProjectsWeb>
-        <ProjectsMobile></ProjectsMobile>
+        {/* <ProjectsMobile></ProjectsMobile> */}
         <Courses></Courses>
       </div>
     </div>

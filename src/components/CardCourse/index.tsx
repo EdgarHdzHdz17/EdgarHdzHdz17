@@ -20,7 +20,7 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
   link,
 }) => {
   return (
-    <div className="bg-card p-6 rounded-lg shadow-md flex flex-col md:flex-row-reverse items-start gap-6">
+    <div className="bg-card p-6 rounded-lg shadow-md flex flex-col md:flex-row-reverse items-start gap-6 bg-green-500">
       <img
         src={image}
         alt="Certificación de Liderazgo"
@@ -34,7 +34,7 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
           <div className="bg-red-500 rounded-full p-3">
             <PiCertificateFill />
           </div>
-          <h2 className="text-2xl font-bold">{title}</h2>
+          <h2 className="text-2xl font-bold text-center">{title}</h2>
         </div>
         <div className="space-y-2">
           <div className="flex items-center gap-2">
