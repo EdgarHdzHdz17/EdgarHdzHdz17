@@ -1,4 +1,4 @@
-import data from "../../../datas/datawebproject/data.json";
+import data from "../../../datas/dataprojects/data.json";
 import CardProjectComponent from "../../CardProject/index";
 
 const Portfolio = () => {
