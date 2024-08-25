@@ -9,7 +9,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ListMenu = () => {
   return (
-    <ul className="text-white flex flex-col justify-around max-sm:text-xs sm:text-sm md:text-base lg:text-2xl md:mx-5 h-full">
+    <ul className="text-black flex flex-col justify-around max-sm:text-xs sm:text-sm md:text-base lg:text-2xl md:mx-5 h-full">
       <li className="flex items-center gap-x-3">
         <MdKeyboardArrowRight />
         <a className="font-bold" href="#biografia">

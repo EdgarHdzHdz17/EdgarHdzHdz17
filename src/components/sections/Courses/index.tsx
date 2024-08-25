@@ -3,8 +3,8 @@ import data from "../../../datas/datacourses/data.json";
 
 const Courses = () => {
   return (
-    <section className="w-full p-5 bg-red-500">
-      <div className="container bg-blue-500">
+    <section className="w-full p-5 ">
+      <div className="container">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Reconocimientos

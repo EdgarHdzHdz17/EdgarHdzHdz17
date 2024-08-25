@@ -20,34 +20,36 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
   link,
 }) => {
   return (
-    <div className="bg-card p-6 rounded-lg shadow-md flex flex-col md:flex-row-reverse items-start gap-6 bg-green-500">
-      <img
-        src={image}
-        alt="Certificación de Liderazgo"
-        width={400}
-        height={300}
-        className="rounded-lg"
-        style={{ aspectRatio: "400/300", objectFit: "cover" }}
-      />
-      <div className="space-y-2">
-        <div className="flex items-center gap-4">
-          <div className="bg-red-500 rounded-full p-3">
-            <PiCertificateFill />
-          </div>
-          <h2 className="text-2xl font-bold text-center">{title}</h2>
-        </div>
+    <div className="rounded-lg shadow-md p-6 gap-6 flex flex-col ">
+      <div className=" flex flex-col md:flex-row-reverse items-start gap-6 ">
+        <img
+          src={image}
+          alt="Certificación de Liderazgo"
+          width={400}
+          height={300}
+          className="rounded-lg"
+          style={{ aspectRatio: "400/300", objectFit: "cover" }}
+        />
         <div className="space-y-2">
-          <div className="flex items-center gap-2">
-            <span className="text-muted-foreground">Emitido: {date}</span>
+          <div className="flex items-center gap-4">
+            <div className=" rounded-full p-3 bg-gray-100">
+              <PiCertificateFill style={{ fontSize: "35px" }} />
+            </div>
+            <h2 className="text-2xl font-bold text-center">{title}</h2>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-muted-foreground">Emisor: {company}</span>
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <span className="text-muted-foreground">Emitido: {date}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-muted-foreground">Emisor: {company}</span>
+            </div>
+            <p className="text-justify">{description}</p>
           </div>
-          <p className="text-justify">{description}</p>
         </div>
-        <div className="flex justify-center items-center ">
-          <ButtonLinkComponent name="Ver Certificado" url={link} />
-        </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <ButtonLinkComponent name="GitHub" url={link} />
       </div>
     </div>
   );
