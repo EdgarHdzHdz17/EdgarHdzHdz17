@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Congreso Interdiciplinario 2023",
+    "description": "Certificado de mi participación en el primer congreso interdisciplinario ICAT 2023, exponiendo el tema “Robótica Educativa Móvil para la Inclusión Digital” recibido por mi proyecto Educatronicapp.",
+    "date": "2023",
+    "company": "ICAT",
+    "image": "./src/assets/certifications/Congress.png",
+    "link": "https://github.com/EdgarHdzHdz17/Interdisciplinary-Congress.git"
+  },
+  {
+    "title": "Diseñando paginas con Boostrap",
+    "description": "Certificado obtenido por finalizar el curso Diseñando paginas con Boostrap emitido por la Universidad Austral en Coursera.",
+    "date": "2022",
+    "company": "Coursera - Universidad Austral",
+    "image": "./src/assets/certifications/Boostrap.png",
+    "link": "https://github.com/EdgarHdzHdz17/Full-Stack-Web-Development"
+  },
+  {
+    "title": "Fundamentos de programacion con JavaScript, HTML y CSS",
+    "description": "Certificado obtenido por finalizar el curso Fundamentos de programacion con JavaScript, HTML y CSS emitido por la Universidad Duke en Coursera.",
+    "date": "2022",
+    "company": "Coursera - Universidad Duke",
+    "image": "./src/assets/certifications/Fundaments.png",
+    "link": "https://github.com/EdgarHdzHdz17/Java-Programming-and-Software-Engineering-Fundamentals"
+  }
+]
