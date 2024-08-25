@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Educatronicapp",
+    "description": "Educatronicapp es una aplicación que introduce a sus usuarios a los conocimientos básicos de la programación.",
+    "skills": [
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      }
+    ],
+    "image": "./src/assets/projects/mobile/Educatronicapp.png",
+    "link": "https://github.com/EdgarHdzHdz17/Educatronicapp.git"
+  },
+  {
+    "title": "SnapNote",
+    "description": "Snap-App es una aplicación para tomar notas, desarrollada en Expo React Native.",
+    "skills": [
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      }
+    ],
+    "image": "./src/assets/projects/mobile/SnapNote.png",
+    "link": "https://github.com/EdgarHdzHdz17/SnapNote.git"
+  },
+  {
+    "title": "VoiceWave-Transcribe",
+    "description": "Aplicación móvil con React Native que convierte audio a texto usando un API REST.",
+    "skills": [
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      }
+    ],
+    "image": "./src/assets/projects/mobile/VoiceWave-Transcribe.png",
+    "link": "https://github.com/EdgarHdzHdz17/VoiceWave-Transcribe.git"
+  },
+  {
+    "title": "Quizify",
+    "description": "Quizify es una aplicación de preguntas sobre Capitales, Tradiciones y Animales de México desarrollada en Expo React Native.",
+    "skills": [
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      }
+    ],
+    "image": "./src/assets/projects/mobile/Quizify.png",
+    "link": "https://github.com/EdgarHdzHdz17/Quizify.git"
+  },
+  {
+    "title": "FurryFriend",
+    "description": "App web para ver el estado del clima usando WeatherAPI.",
+    "skills": [
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      }
+    ],
+    "image": "./src/assets/projects//mobile/FurryFriend.png",
+    "link": "https://github.com/EdgarHdzHdz17/FurryFriend.git"
+  }
+]
