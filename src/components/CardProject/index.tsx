@@ -24,7 +24,7 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
     <div className="flex flex-col justify-center space-y-4">
       <div className="grid gap-2">
         <h3 className="text-xl font-bold">{title}</h3>
-        <p className="text-muted-foreground">{description}</p>
+
         <img
           src={image}
           width="550"
@@ -32,6 +32,7 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
           alt={title}
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
         />
+        <p className="text-muted-foreground">{description}</p>
         <div className="flex gap-2 justify-center">
           {skills.map((skill, index) => (
             <div key={index} className="flex items-center gap-1">

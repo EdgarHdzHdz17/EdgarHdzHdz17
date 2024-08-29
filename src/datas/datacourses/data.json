@@ -8,8 +8,16 @@
     "link": "https://github.com/EdgarHdzHdz17/Interdisciplinary-Congress.git"
   },
   {
+    "title": "Introduccion a Git - GitHub",
+    "description": "Certificado obtenido por finalizar el curso “Introduccion al control de versiones con Git y GitHub” en Coursera.",
+    "date": "2022",
+    "company": "Coursera - Universidad los Andes",
+    "image": "./src/assets/certifications/Git-GitHub.png",
+    "link": "https://github.com/EdgarHdzHdz17/Full-Stack-Web-Development"
+  },
+  {
     "title": "Diseñando paginas con Boostrap",
-    "description": "Certificado obtenido por finalizar el curso Diseñando paginas con Boostrap emitido por la Universidad Austral en Coursera.",
+    "description": "Certificado obtenido por finalizar el curso “Diseñando paginas con Boostrap” emitido por la Universidad Austral en Coursera.",
     "date": "2022",
     "company": "Coursera - Universidad Austral",
     "image": "./src/assets/certifications/Boostrap.png",
@@ -17,7 +25,7 @@
   },
   {
     "title": "Fundamentos con JavaScript, HTML y CSS",
-    "description": "Certificado obtenido por finalizar el curso Fundamentos con JavaScript, HTML y CSS emitido por la Universidad Duke en Coursera.",
+    "description": "Certificado obtenido por finalizar el curso Fundamentos con JavaScript, HTML y CSS” emitido por la Universidad Duke en Coursera.",
     "date": "2022",
     "company": "Coursera - Universidad Duke",
     "image": "./src/assets/certifications/Fundaments.png",
