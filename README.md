@@ -15,6 +15,10 @@
 - 📓 I’m currently learning: **React, React Native**
 
 - ⏳ Coming soon: **IOS Developer**
+- 💻 I’m looking to collaborate on: **Web and Mobile application development**
+- 🏢 I’m looking for help with: **Projects that provide me with experience**
+- 📝 I regularly read articles about: **AI,Developers,Productivity**
+- 💬 Ask me about: **ReactJS & React Native**
 - 📩 How to reach me: **edgarhdzhdz17@hotmail.com**
 
 <h3 align="left">Languages and Tools:</h3>
