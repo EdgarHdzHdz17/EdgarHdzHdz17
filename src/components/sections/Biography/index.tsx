@@ -30,11 +30,11 @@ const Biography: React.FC = () => {
                     Frontend Developer
                   </h2>
                   <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Frontend Developer con 2 años de experiencia. Mi objetivo es
-                    contribuir al desarrollo de sitios web y aplicaciones
-                    móviles funcionales que ofrezcan valor final a los usuarios.
-                    Actualmente me encuentro aprendiendo React y React Native
-                    con proyectos que me proporcionen experiencia.
+                    Ingeniero en Computación por la Universidad Nacional
+                    Autónoma de México y Desarrollador Frontend con 2 años de
+                    experiencia. Mi objetivo es contribuir al desarrollo de
+                    sitios web y aplicaciones móviles funcionales que ofrezcan
+                    un valor significativo a los usuarios.
                   </p>
                   <div className="flex justify-center items-center gap-5">
                     <ButtonLinkComponent
