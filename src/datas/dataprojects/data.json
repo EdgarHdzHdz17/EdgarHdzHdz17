@@ -24,26 +24,6 @@
     "link": "https://github.com/EdgarHdzHdz17/Page-Telematica-ICAT.git"
   },
   {
-    "title": "Funkop",
-    "description": "Página web de Funkop hecha con HTML, CSS y JavaScript.",
-    "skills": [
-      {
-        "skill": "HTML",
-        "icon": "./src/assets/icons/html5.svg"
-      },
-      {
-        "skill": "CSS",
-        "icon": "./src/assets/icons/css3.svg"
-      },
-      {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
-      }
-    ],
-    "image": "./src/assets/projects/web/Funkop.png",
-    "link": "https://github.com/EdgarHdzHdz17/Funkop.git"
-  },
-  {
     "title": "WeatherSphere",
     "description": "App web para ver el estado del clima usando WeatherAPI.",
     "skills": [
