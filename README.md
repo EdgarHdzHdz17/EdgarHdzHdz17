@@ -4,23 +4,6 @@
 
 <a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
 
-<img align="right" src="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/adc71e90-eb3f-42f2-86d1-b11372a10af1" alt="Diseño sin título2" />
-
-<h3 align="left">About Me:</h3>
-
-- 🎓 Engineering Degree at: **Universidad Nacional Autónoma de México**
-- 🧑🏻‍💻 I’m currently working on: **Projects Frontend**
-
-- 🎮 Fun fact: **I am passionate about productivity and the development of projects that are functional for users**
-- 📓 I’m currently learning: **React, React Native**
-
-- ⏳ Coming soon: **IOS Developer**
-- 💻 I’m looking to collaborate on: **Web and Mobile application development**
-- 🏢 I’m looking for help with: **Projects that provide me with experience**
-- 📝 I regularly read articles about: **AI,Developers,Productivity**
-- 💬 Ask me about: **ReactJS & React Native**
-- 📩 How to reach me: **edgarhdzhdz17@hotmail.com**
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">  
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="45" height="45"/> </a> 
