@@ -32,13 +32,18 @@ const Courses = () => {
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="p-2 bg-gray-300 rounded disabled:opacity-50"
+          className="p-2 bg-gray-300 rounded disabled:opacity-50 max-sm:hidden"
         >
-          Prev
+          Ant
         </button>
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           {data
-            .slice(currentIndex, currentIndex + itemsPerPage)
+            .slice(
+              window.innerWidth <= 640 ? 0 : currentIndex,
+              window.innerWidth <= 640
+                ? data.length
+                : currentIndex + itemsPerPage
+            )
             .map((course, index) => (
               <CardCourseComponent
                 key={index}
@@ -54,9 +59,9 @@ const Courses = () => {
         <button
           onClick={handleNext}
           disabled={currentIndex >= data.length - itemsPerPage}
-          className="p-2 bg-gray-300 rounded disabled:opacity-50"
+          className="p-2 bg-gray-300 rounded disabled:opacity-50 max-sm:hidden"
         >
-          Next
+          Sig
         </button>
       </div>
     </section>

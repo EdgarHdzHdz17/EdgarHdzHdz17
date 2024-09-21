@@ -24,7 +24,6 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
     <div className="flex flex-col justify-center space-y-4">
       <div className="grid gap-2">
         <h3 className="text-xl font-bold">{title}</h3>
-
         <img
           src={image}
           width="550"
