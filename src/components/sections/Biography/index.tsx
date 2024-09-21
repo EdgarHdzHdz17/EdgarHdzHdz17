@@ -44,13 +44,13 @@ const Biography: React.FC = () => {
             <div className="flex justify-center items-center gap-5">
               <ButtonLinkComponent
                 name="GitHub"
-                url="#"
+                url="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17"
                 style={GitHubStyle}
                 icon={<FaGithub className="ml-2 mt-1" />}
               />
               <ButtonLinkComponent
                 name="Linkedin"
-                url="#"
+                url="https://www.linkedin.com/in/edgar-hern%C3%A1ndez-hern%C3%A1ndez-10ba72208"
                 style={LinkedinStyle}
                 icon={<FaLinkedin className="ml-2 mt-1" />}
               />
