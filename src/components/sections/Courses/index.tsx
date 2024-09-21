@@ -17,14 +17,15 @@ const Courses = () => {
   };
 
   return (
-    <section className="w-full p-5 flex flex-col justify-center px-20 items-center">
+    <section className="w-full p-5 flex flex-col justify-center px-20 items-center max-sm:px-5">
       <div className="space-y-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">
           Reconocimientos
         </h2>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
-          Algunos reconocimientos y cursos que he recibido a lo largo de los
-          años.
+        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center max-sm:text-justify">
+          A lo largo de los años, he tenido la oportunidad de recibir diversos
+          reconocimientos y completar cursos que han enriquecido mi formación
+          profesional.
         </p>
       </div>
       <div className="flex justify-between items-center gap-5">

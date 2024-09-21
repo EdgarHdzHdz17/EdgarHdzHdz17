@@ -24,24 +24,8 @@
     "link": "https://github.com/EdgarHdzHdz17/Page-Telematica-ICAT.git"
   },
   {
-    "title": "WeatherSphere",
-    "description": "App web para ver el estado del clima usando WeatherAPI.",
-    "skills": [
-      {
-        "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
-      },
-      {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
-      }
-    ],
-    "image": "./src/assets/projects/web/WeatherSphere.png",
-    "link": "https://github.com/EdgarHdzHdz17/WeatherSphere.git"
-  },
-  {
     "title": "Educatronicapp",
-    "description": "Educatronicapp es una aplicación que introduce a sus usuarios a los conocimientos básicos de la programación.",
+    "description": "Educatronicapp es un app que te introduce a los conocimientos básicos de la programación.",
     "skills": [
       {
         "skill": "JavaScript",
@@ -60,8 +44,28 @@
     "link": "https://github.com/EdgarHdzHdz17/Educatronicapp.git"
   },
   {
+    "title": "FurryFriend",
+    "description": "Furry Friend es app que proporciona información detallada sobre diferentes razas de perros.",
+    "skills": [
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
+      {
+        "skill": "React / React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
+      }
+    ],
+    "image": "./src/assets/projects//mobile/FurryFriend.png",
+    "link": "https://github.com/EdgarHdzHdz17/FurryFriend.git"
+  },
+  {
     "title": "SnapNote",
-    "description": "Snap-App es una aplicación para tomar notas.",
+    "description": "Snap-App es una aplicación para tomar notas simulando un Login.",
     "skills": [
       {
         "skill": "JavaScript",
@@ -120,23 +124,19 @@
     "link": "https://github.com/EdgarHdzHdz17/Quizify.git"
   },
   {
-    "title": "FurryFriend",
-    "description": "Furry Friend es una aplicación que proporciona información detallada sobre diferentes razas de perros.",
+    "title": "WeatherSphere",
+    "description": "App web para ver el estado del clima usando WeatherAPI.",
     "skills": [
-      {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
-      },
       {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
       }
     ],
-    "image": "./src/assets/projects//mobile/FurryFriend.png",
-    "link": "https://github.com/EdgarHdzHdz17/FurryFriend.git"
+    "image": "./src/assets/projects/web/WeatherSphere.png",
+    "link": "https://github.com/EdgarHdzHdz17/WeatherSphere.git"
   }
 ]

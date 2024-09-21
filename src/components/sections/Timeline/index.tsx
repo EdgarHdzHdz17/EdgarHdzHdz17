@@ -2,7 +2,7 @@ import CardTimeLineComponent from "../../CardTimeline";
 
 const Timeline = () => {
   return (
-    <div className="w-full px-20 mt-10">
+    <div className="w-full px-20 mt-10 max-sm:px-5 max-sm:mt-1">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 relative">
         <CardTimeLineComponent
           role="Internship Frontend"
