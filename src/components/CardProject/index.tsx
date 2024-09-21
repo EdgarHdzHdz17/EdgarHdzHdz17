@@ -1,4 +1,5 @@
 import ButtonLinkComponent from "../ButtonLink";
+import { FaGithub } from "react-icons/fa";
 
 const GitHubStyle = {
   color: "#fff",
@@ -21,9 +22,8 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
   link,
 }) => {
   return (
-    <div className="flex flex-col justify-center space-y-4">
+    <div className="flex flex-col justify-center space-y-4 border-gray-200 border-2 rounded-lg p-1">
       <div className="grid gap-2">
-        <h3 className="text-xl font-bold">{title}</h3>
         <img
           src={image}
           width="550"
@@ -44,7 +44,12 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
           ))}
         </div>
         <div className="flex justify-center items-center">
-          <ButtonLinkComponent name="GitHub" url={link} style={GitHubStyle} />
+          <ButtonLinkComponent
+            name="GitHub"
+            url={link}
+            style={GitHubStyle}
+            icon={<FaGithub className="ml-2 mt-1" />}
+          />
         </div>
       </div>
     </div>

@@ -1,21 +1,22 @@
 import { Button } from "flowbite-react";
-import { FaGithub } from "react-icons/fa";
 
 interface ButtonLinkComponentProps {
   name: string;
   url: string;
   style: React.CSSProperties;
+  icon: React.ReactNode;
 }
 
 const ButtonLinkComponent: React.FC<ButtonLinkComponentProps> = ({
   name,
   url,
   style,
+  icon,
 }) => {
   return (
     <Button href={url} style={style}>
       {name}
-      <FaGithub className="ml-2 mt-1"></FaGithub>
+      {icon}
     </Button>
   );
 };
