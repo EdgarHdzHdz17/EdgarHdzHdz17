@@ -44,12 +44,16 @@
     "description": "Educatronicapp es una aplicación que introduce a sus usuarios a los conocimientos básicos de la programación.",
     "skills": [
       {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
+      {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       }
     ],
     "image": "./src/assets/projects/mobile/Educatronicapp.png",
@@ -57,15 +61,19 @@
   },
   {
     "title": "SnapNote",
-    "description": "Snap-App es una aplicación para tomar notas, desarrollada en Expo React Native.",
+    "description": "Snap-App es una aplicación para tomar notas.",
     "skills": [
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
       {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       }
     ],
     "image": "./src/assets/projects/mobile/SnapNote.png",
@@ -76,12 +84,16 @@
     "description": "Aplicación móvil con React Native que convierte audio a texto usando un API REST.",
     "skills": [
       {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
+      {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       }
     ],
     "image": "./src/assets/projects/mobile/VoiceWave-Transcribe.png",
@@ -89,15 +101,19 @@
   },
   {
     "title": "Quizify",
-    "description": "Quizify es una aplicación de preguntas sobre Capitales, Tradiciones y Animales de México desarrollada en Expo React Native.",
+    "description": "Quizify es una aplicación de preguntas sobre Capitales, Tradiciones y Animales de México.",
     "skills": [
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
       {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       }
     ],
     "image": "./src/assets/projects/mobile/Quizify.png",
@@ -105,15 +121,19 @@
   },
   {
     "title": "FurryFriend",
-    "description": "App web para ver el estado del clima usando WeatherAPI.",
+    "description": "Furry Friend es una aplicación que proporciona información detallada sobre diferentes razas de perros.",
     "skills": [
+      {
+        "skill": "JavaScript",
+        "icon": "./src/assets/icons/javascript.svg"
+      },
       {
         "skill": "React / React Native",
         "icon": "./src/assets/icons/react.svg"
       },
       {
-        "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       }
     ],
     "image": "./src/assets/projects//mobile/FurryFriend.png",

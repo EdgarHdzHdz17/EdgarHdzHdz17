@@ -6,7 +6,7 @@ import Courses from "../sections/Courses";
 
 const Container = () => {
   return (
-    <div className="flex flex-col w-full h-screen ">
+    <div className="flex flex-col w-full h-screen">
       <Biography></Biography>
       <Timeline></Timeline>
       <Skills></Skills>

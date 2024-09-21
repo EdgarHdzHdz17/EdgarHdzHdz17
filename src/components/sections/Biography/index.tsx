@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../../assets/images/Perfil.png";
+import Profile from "../../../assets/images/AvatarDeveloper.png";
 import ButtonLinkComponent from "../../ButtonLink";
 
 const GitHubStyle = {
@@ -15,8 +15,41 @@ const LinkedinStyle = {
 const Biography: React.FC = () => {
   return (
     <>
-      <section className="w-full p-5 flex justify-center items-center ">
-        <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] ">
+      <section className="w-full p-5 flex justify-center items-center">
+        <div className="flex flex-col md:flex-row items-center md:items-center gap-8 px-60 mt-10">
+          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 bg-slate-200">
+            <img src={Profile} width="200" height="200" alt="ImageProfile" />
+          </div>
+          <div className="flex flex-col gap-5">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-sky-500">
+              Edgar Hernández Hernández
+            </h1>
+            <h2 className="text-xl font-bold tracking-tighter sm:text-5xl lg:text-3xl text-gray-400">
+              Frontend Developer
+            </h2>
+            <p className="text-lg mb-4 text-center">
+              Ingeniero en Computación por la Universidad Nacional Autónoma de
+              México y Desarrollador Frontend con 2 años de experiencia en la
+              creación de soluciones tecnológicas innovadoras. Mi enfoque
+              principal es el desarrollo de sitios web y aplicaciones móviles
+              que no solo sean visualmente atractivas, sino que también ofrezcan
+              una experiencia de usuario intuitiva y eficiente. Estoy
+              comprometido con la utilización de las mejores prácticas y
+              tecnologías actuales para entregar productos que agreguen un valor
+              real a los usuarios y resuelvan sus necesidades de manera
+              efectiva.
+            </p>
+            <div className="flex justify-center items-center gap-5">
+              <ButtonLinkComponent name="GitHub" url="#" style={GitHubStyle} />
+              <ButtonLinkComponent
+                name="Linkedin"
+                url="#"
+                style={LinkedinStyle}
+              />
+            </div>
+          </div>
+        </div>
+        {/* <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] ">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-center ">
@@ -55,7 +88,7 @@ const Biography: React.FC = () => {
           <div className="flex justify-center">
             <img src={Profile} width="400" height="400" alt="ImageProfile" />
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

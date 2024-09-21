@@ -24,20 +24,20 @@
     "title": "Librerias y Frameworks",
     "skills": [
       {
-        "skill": "React / React Native",
+        "skill": "React",
         "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "React Native",
+        "icon": "./src/assets/icons/react.svg"
+      },
+      {
+        "skill": "Expo React Native",
+        "icon": "./src/assets/icons/expo.svg"
       },
       {
         "skill": "Vite JS",
         "icon": "./src/assets/icons/vitejs.svg"
-      },
-      {
-        "skill": "Bootstrap",
-        "icon": "./src/assets/icons/bootstrap.svg"
-      },
-      {
-        "skill": "Tailwind",
-        "icon": "./src/assets/icons/tailwindcss.svg"
       }
     ]
   },
@@ -65,6 +65,14 @@
   {
     "title": "Extras",
     "skills": [
+      {
+        "skill": "Bootstrap",
+        "icon": "./src/assets/icons/bootstrap.svg"
+      },
+      {
+        "skill": "Tailwind",
+        "icon": "./src/assets/icons/tailwindcss.svg"
+      },
       {
         "skill": "Figma",
         "icon": "./src/assets/icons/figma.svg"
