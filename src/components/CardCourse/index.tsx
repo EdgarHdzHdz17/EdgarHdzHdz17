@@ -1,6 +1,7 @@
 import React from "react";
 import { PiCertificateFill } from "react-icons/pi";
 import ButtonLinkComponent from "../ButtonLink";
+import { FaGithub } from "react-icons/fa";
 
 const GitHubStyle = {
   color: "#fff",
@@ -54,7 +55,12 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <ButtonLinkComponent name="GitHub" url={link} style={GitHubStyle} />
+        <ButtonLinkComponent
+          name="GitHub"
+          url={link}
+          style={GitHubStyle}
+          icon={<FaGithub className="ml-2 mt-1" />}
+        />
       </div>
     </div>
   );
