@@ -28,7 +28,9 @@ const CardTimeLineComponent: React.FC<CardTimeLineProps> = ({
           <IoTimeOutline />
           {date}
         </div>
-        <div className="text-muted-foreground text-justify">{description}</div>
+        <div className="text-muted-foreground text-justify text-base">
+          {description}
+        </div>
       </div>
     </>
   );

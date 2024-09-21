@@ -15,7 +15,7 @@ const Portfolio = () => {
             Bootstrap, React, Tailwind y React Native.
           </p>
         </div>
-        <div className="w-[80%] grid items-center gap-6 lg:grid-cols-4 lg:gap-">
+        <div className="w-[80%] grid items-center gap-6 lg:grid-cols-4 max-sm:w-[100%]">
           {data.map((project, index) => (
             <CardProjectComponent
               key={index}
