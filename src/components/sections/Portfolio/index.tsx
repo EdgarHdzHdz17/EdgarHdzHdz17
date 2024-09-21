@@ -3,7 +3,7 @@ import CardProjectComponent from "../../CardProject/index";
 
 const Portfolio = () => {
   return (
-    <section className="w-full p-5 flex justify-center items-center max-sm:px-5">
+    <section className="w-full p-3 flex justify-center items-center max-sm:px-5">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2 ">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
