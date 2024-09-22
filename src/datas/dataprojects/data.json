@@ -5,22 +5,22 @@
     "skills": [
       {
         "skill": "HTML",
-        "icon": "./src/assets/icons/html5.svg"
+        "icon": "src/assets/icons/html5.svg"
       },
       {
         "skill": "CSS",
-        "icon": "./src/assets/icons/css3.svg"
+        "icon": "src/assets/icons/css3.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "Bootstrap",
-        "icon": "./src/assets/icons/bootstrap.svg"
+        "icon": "src/assets/icons/bootstrap.svg"
       }
     ],
-    "image": "./src/assets/projects/web/Telematica.png",
+    "image": "src/assets/projects/web/Telematica.png",
     "link": "https://github.com/EdgarHdzHdz17/Page-Telematica-ICAT.git"
   },
   {
@@ -29,18 +29,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects/mobile/Educatronicapp.png",
+    "image": "src/assets/projects/mobile/Educatronicapp.png",
     "link": "https://github.com/EdgarHdzHdz17/Educatronicapp.git"
   },
   {
@@ -49,18 +49,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects//mobile/FurryFriend.png",
+    "image": "src/assets/projects/mobile/FurryFriend.png",
     "link": "https://github.com/EdgarHdzHdz17/FurryFriend.git"
   },
   {
@@ -69,18 +69,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects/mobile/SnapNote.png",
+    "image": "src/assets/projects/mobile/SnapNote.png",
     "link": "https://github.com/EdgarHdzHdz17/SnapNote.git"
   },
   {
@@ -89,18 +89,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects/mobile/VoiceWave-Transcribe.png",
+    "image": "src/assets/projects/mobile/VoiceWave-Transcribe.png",
     "link": "https://github.com/EdgarHdzHdz17/VoiceWave-Transcribe.git"
   },
   {
@@ -109,18 +109,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects/mobile/Quizify.png",
+    "image": "src/assets/projects/mobile/Quizify.png",
     "link": "https://github.com/EdgarHdzHdz17/Quizify.git"
   },
   {
@@ -129,14 +129,14 @@
     "skills": [
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "src/assets/icons/react.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "src/assets/icons/javascript.svg"
       }
     ],
-    "image": "./src/assets/projects/web/WeatherSphere.png",
+    "image": "src/assets/projects/web/WeatherSphere.png",
     "link": "https://github.com/EdgarHdzHdz17/WeatherSphere.git"
   }
 ]

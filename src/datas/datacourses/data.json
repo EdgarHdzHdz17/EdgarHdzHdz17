@@ -4,7 +4,7 @@
     "description": "Certificado de mi participación en el primer congreso interdisciplinario ICAT 2023, exponiendo el tema “Robótica Educativa Móvil para la Inclusión Digital”.",
     "date": "2023",
     "company": "ICAT",
-    "image": "./src/assets/certifications/Congress.png",
+    "image": "src/assets/certifications/Congress.png",
     "link": "https://github.com/EdgarHdzHdz17/Interdisciplinary-Congress.git"
   },
   {
@@ -12,7 +12,7 @@
     "description": "Programa de certificaciones de GitHub: GitHub Foundations, GitHub Actions, GitHub Advanced Security, GitHub Learning Admin.",
     "date": "2024",
     "company": "GitHub Company",
-    "image": "./src/assets/certifications/GitHub-Program.jpg",
+    "image": "src/assets/certifications/GitHub-Program.jpg",
     "link": "https://github.com/EdgarHdzHdz17/GitHub-Certifications"
   },
   {
@@ -20,7 +20,7 @@
     "description": "Certificado profesional de desarrollador front-end de Meta.",
     "date": "2024",
     "company": "Coursera-Meta",
-    "image": "./src/assets/certifications/Meta-Certificate.jpg",
+    "image": "src/assets/certifications/Meta-Certificate.jpg",
     "link": "https://github.com/EdgarHdzHdz17/Meta-FrontEnd-Developer"
   }
 ]
