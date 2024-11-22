@@ -2,7 +2,7 @@
 
 ![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
 
-<a align="justify">Frontend Developer with 2 years of experience. My goal is to contribute to the development of websites and functional mobile apps that offer value to users finals.</a>
+<a align="justify">Frontend Developer.</a>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">  
