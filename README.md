@@ -1,4 +1,5 @@
-<h1 align="center">WELCOME :wave: I'm Edgar Hernández and I'm Frontend Developer</h1>
+<h1 align="center">WELCOME :wave: I'm Edgar Hernández</h1>
+<h2 align="center">Frontend Developer</h2>
 
 ![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
 
