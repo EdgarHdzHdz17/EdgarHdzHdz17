@@ -1,8 +1,6 @@
 <h1 align="center">WELCOME :wave: I'm Edgar Hernández</h1>
 <h3 align="center">Frontend Developer</h3>
 
-![Diseño sin título](https://github.com/EdgarHdzHdz17/EdgarHdzHdz17/assets/47467891/3c3ae104-4a09-463f-beb4-82a2ad30e095)
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">  
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="45" height="45"/> </a> 
