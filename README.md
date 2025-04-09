@@ -24,12 +24,10 @@
 </p>
   
 <h3 align="left">GitHub Analytics:</h3>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="Top Langs" />
 </p>
 <br />
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=edgarhdzhdz17&show_icons=true&locale=en&theme=github_dark" alt="GitHub Stats" />
 </p>
