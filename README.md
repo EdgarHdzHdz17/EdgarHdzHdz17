@@ -25,7 +25,7 @@
   
 <h3 align="left">GitHub Analytics:</h3>
 <p align="center" style="background-color: #fff">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact" alt="edgarhdzhdz17" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="edgarhdzhdz17" />
 </p>
 
 <p align="center" style="background-color: #fff">
