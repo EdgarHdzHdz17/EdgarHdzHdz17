@@ -20,11 +20,6 @@
 <a href="https://slack.com/intl/es-mx" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/slack/slack-original.svg" alt="slack" width="45" height="45"/> </a>
 <a href="https://www.atlassian.com/es/software/jira" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" alt="jira" width="45" height="45"/> </a> 
 </p>
-  
-<h3 align="left">GitHub Analytics:</h3>
-<p align="center">
- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=edgarhdzhdz17&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="Top Languages - GitHub Dark" />
-</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="center">
@@ -33,3 +28,4 @@
 <a href="https://instagram.com/edgarhdzhdz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="edgarhdzhdz17" height="40" width="40" /></a> 
 <a href="https://linkedin.com/in/edgar-hernández-hernández-10ba72208" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="edgar hernández hernández" height="40" width="40" /></a>
 </p>
+
