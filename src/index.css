@@ -2,3 +2,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply min-h-screen bg-slate-50 font-sans text-ink antialiased;
+  }
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:px-8;
+  }
+  .section-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-slate-500;
+  }
+  .section-title {
+    @apply mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl;
+  }
+  .section-desc {
+    @apply mt-3 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg;
+  }
+  .card-surface {
+    @apply rounded-3xl border border-slate-200/80 bg-white shadow-card transition-shadow duration-300;
+  }
+  .card-surface:hover {
+    @apply shadow-card-hover border-slate-200;
+  }
+}

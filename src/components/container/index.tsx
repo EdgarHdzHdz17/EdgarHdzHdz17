@@ -6,12 +6,15 @@ import Courses from "../sections/Courses";
 
 const Container = () => {
   return (
-    <div className="flex flex-col w-full h-screen">
-      <Biography></Biography>
-      <Timeline></Timeline>
-      <Skills></Skills>
-      <ProjectsWeb></ProjectsWeb>
-      <Courses></Courses>
+    <div className="flex min-h-screen w-full flex-col">
+      <Biography />
+      <Timeline />
+      <Skills />
+      <ProjectsWeb />
+      <Courses />
+      <footer className="border-t border-slate-200/80 bg-white py-8 text-center text-sm text-slate-500">
+        © {new Date().getFullYear()} Edgar Hernández Hernández
+      </footer>
     </div>
   );
 };

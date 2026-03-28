@@ -3,11 +3,6 @@ import { PiCertificateFill } from "react-icons/pi";
 import ButtonLinkComponent from "../ButtonLink";
 import { FaGithub } from "react-icons/fa";
 
-const GitHubStyle = {
-  color: "#fff",
-  backgroundColor: "#333",
-};
-
 interface CardCourseComponentProps {
   title: string;
   date: string;
@@ -26,43 +21,52 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
   link,
 }) => {
   return (
-    <div className="rounded-lg shadow-md p-6 gap-6 flex flex-col ">
-      <div className=" flex flex-col md:flex-row-reverse items-start gap-6 ">
-        <img
-          src={image}
-          alt="Certificación de Liderazgo"
-          width={400}
-          height={300}
-          className="rounded-lg"
-          style={{ aspectRatio: "400/300", objectFit: "cover" }}
-        />
-        <div className="space-y-2">
-          <div className="flex items-center gap-4">
-            <div className=" rounded-full p-3 bg-gray-100">
-              <PiCertificateFill style={{ fontSize: "35px" }} />
+    <article className="card-surface flex flex-col gap-6 overflow-hidden p-6 sm:p-8">
+      <div className="flex flex-col gap-6 lg:flex-row-reverse lg:items-start">
+        <div className="shrink-0 overflow-hidden rounded-2xl border border-slate-100 bg-slate-50 lg:w-[min(100%,280px)]">
+          <img
+            src={image}
+            alt=""
+            width={400}
+            height={300}
+            className="aspect-[4/3] h-full w-full object-cover"
+          />
+        </div>
+        <div className="min-w-0 flex-1 space-y-4">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-4">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-blue-50 text-accent">
+              <PiCertificateFill className="h-7 w-7" aria-hidden />
             </div>
-            <h2 className="text-2xl font-bold text-center">{title}</h2>
+            <div>
+              <h3 className="text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
+                {title}
+              </h3>
+              <dl className="mt-3 space-y-1 text-sm text-slate-600">
+                <div>
+                  <dt className="sr-only">Fecha</dt>
+                  <dd>Emitido: {date}</dd>
+                </div>
+                <div>
+                  <dt className="sr-only">Emisor</dt>
+                  <dd>Emisor: {company}</dd>
+                </div>
+              </dl>
+            </div>
           </div>
-          <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <span className="text-muted-foreground">Emitido: {date}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-muted-foreground">Emisor: {company}</span>
-            </div>
-            <p className="text-justify">{description}</p>
-          </div>
+          <p className="text-pretty text-sm leading-relaxed text-slate-600 sm:text-base">
+            {description}
+          </p>
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center border-t border-slate-100 pt-6 sm:justify-start">
         <ButtonLinkComponent
-          name="GitHub"
+          name="Ver en GitHub"
           url={link}
-          style={GitHubStyle}
-          icon={<FaGithub className="ml-2 mt-1" />}
+          variant="outline"
+          icon={<FaGithub className="h-4 w-4" aria-hidden />}
         />
       </div>
-    </div>
+    </article>
   );
 };
 
