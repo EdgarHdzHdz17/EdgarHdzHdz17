@@ -2,8 +2,16 @@ import CardTimeLineComponent from "../../CardTimeline";
 
 const Timeline = () => {
   return (
-    <div className="w-full px-20 mt-5 max-sm:px-5 max-sm:mt-1">
-      <div className="grid grid-cols-1 max-sm:gap-5 sm:grid-cols-3 gap-10 relative">
+    <section className="section-shell border-b border-slate-200/60 bg-slate-50/50 dark:border-slate-800/60 dark:bg-night-raised/30">
+      <header className="mb-10 max-w-2xl">
+        <p className="section-eyebrow">Trayectoria</p>
+        <h2 className="section-title">Experiencia</h2>
+        <p className="section-desc">
+          Prácticas, beca y rol actual en desarrollo frontend y aplicaciones
+          móviles.
+        </p>
+      </header>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <CardTimeLineComponent
           role="Internship Frontend"
           company="Instituto de Ingeniería [UNAM]"
@@ -31,7 +39,7 @@ const Timeline = () => {
             aplicaciones móviles con React Native."
         />
       </div>
-    </div>
+    </section>
   );
 };
 

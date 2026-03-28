@@ -4,18 +4,22 @@ import data from "../../../datas/dataskill/data.json";
 
 const Skills: React.FC = () => {
   return (
-    <section className="w-full lg:px-20 py-5 max-sm:px-5">
-      <div className="grid gap-4">
-        <h2 className="text-2xl font-semibold">Skills</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-          {data.map((skill, index) => (
-            <CardSkillComponent
-              key={index}
-              title={skill.title}
-              skills={skill.skills}
-            />
-          ))}
-        </div>
+    <section className="section-shell border-b border-slate-200/60 bg-white dark:border-slate-800/60 dark:bg-night-base">
+      <header className="mb-10 max-w-2xl">
+        <p className="section-eyebrow">Stack</p>
+        <h2 className="section-title">Skills</h2>
+        <p className="section-desc">
+          Herramientas y tecnologías que uso en el día a día.
+        </p>
+      </header>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {data.map((skill, index) => (
+          <CardSkillComponent
+            key={index}
+            title={skill.title}
+            skills={skill.skills}
+          />
+        ))}
       </div>
     </section>
   );

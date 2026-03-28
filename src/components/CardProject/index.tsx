@@ -1,10 +1,6 @@
+import type { FC } from "react";
 import ButtonLinkComponent from "../ButtonLink";
 import { FaGithub } from "react-icons/fa";
-
-const GitHubStyle = {
-  color: "#fff",
-  backgroundColor: "#333",
-};
 
 interface CardProjectComponentProps {
   title: string;
@@ -14,7 +10,7 @@ interface CardProjectComponentProps {
   link: string;
 }
 
-const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
+const CardProjectComponent: FC<CardProjectComponentProps> = ({
   title,
   description,
   skills,
@@ -22,37 +18,48 @@ const CardProjectComponent: React.FC<CardProjectComponentProps> = ({
   link,
 }) => {
   return (
-    <div className="flex flex-col justify-center space-y-4 border-gray-200 border-2 rounded-lg p-1">
-      <div className="grid gap-2">
+    <article className="group card-surface flex flex-col overflow-hidden">
+      <div className="relative aspect-video w-full overflow-hidden bg-slate-100 dark:bg-slate-800/80">
         <img
           src={image}
-          width="550"
-          height="310"
+          width={640}
+          height={360}
           alt={title}
-          className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+          className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.02]"
         />
-        <p className="text-muted-foreground">{description}</p>
-        <div className="flex gap-2 justify-center">
+      </div>
+      <div className="flex flex-col gap-4 p-6 sm:p-7">
+        <h3 className="text-xl font-semibold tracking-tight text-slate-900 dark:text-slate-100">
+          {title}
+        </h3>
+        <p className="text-pretty text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-400">
+          {description}
+        </p>
+        <div className="flex flex-wrap justify-center gap-2 sm:justify-start">
           {skills.map((skill, index) => (
-            <div key={index} className="flex items-center gap-1">
+            <div
+              key={index}
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-100 bg-slate-50/90 dark:border-slate-600/40 dark:bg-slate-800/60"
+              title={skill.skill}
+            >
               <img
                 src={skill.icon}
                 alt={skill.skill}
-                className="w-8 h-8 rounded-md"
+                className="h-6 w-6 object-contain"
               />
             </div>
           ))}
         </div>
-        <div className="flex justify-center items-center">
+        <div className="pt-1">
           <ButtonLinkComponent
             name="GitHub"
             url={link}
-            style={GitHubStyle}
-            icon={<FaGithub className="ml-2 mt-1" />}
+            variant="github"
+            icon={<FaGithub className="h-4 w-4" aria-hidden />}
           />
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

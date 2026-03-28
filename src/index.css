@@ -2,3 +2,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  html:not(.dark) {
+    color-scheme: light;
+  }
+  body {
+    @apply min-h-screen bg-slate-50 font-sans text-ink antialiased transition-colors duration-300 dark:bg-night-base dark:text-slate-200;
+  }
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:px-8;
+  }
+  .section-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-500;
+  }
+  .section-title {
+    @apply mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-slate-50;
+  }
+  .section-desc {
+    @apply mt-3 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg dark:text-slate-400;
+  }
+  .card-surface {
+    @apply rounded-3xl border border-slate-200/80 bg-white shadow-card transition-[box-shadow,border-color,background-color] duration-300 dark:border-slate-700/40 dark:bg-night-card/90 dark:shadow-card-dark;
+  }
+  .card-surface:hover {
+    @apply border-slate-200 shadow-card-hover dark:border-slate-600/50 dark:shadow-card-dark-hover;
+  }
+}

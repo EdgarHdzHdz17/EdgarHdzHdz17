@@ -1,28 +1,27 @@
 import React from "react";
 
-interface CardProjectComponent {
+interface CardSkillProps {
   title: string;
   skills: { skill: string; icon: string }[];
 }
 
-const CardSkillComponent: React.FC<CardProjectComponent> = ({
-  title,
-  skills,
-}) => {
+const CardSkillComponent: React.FC<CardSkillProps> = ({ title, skills }) => {
   return (
-    <div className="bg-muted rounded-md p-4 flex flex-col gap-2 bg-gray-100">
-      <h3 className="text-lg font-semibold text-center">{title}</h3>
-      <ul className="text-muted-foreground space-y-1">
+    <div className="card-surface flex h-full flex-col gap-4 p-5 sm:p-6">
+      <h3 className="border-b border-slate-100 pb-3 text-center text-base font-semibold text-slate-900 dark:border-slate-700/80 dark:text-slate-100">
+        {title}
+      </h3>
+      <ul className="flex flex-col gap-3">
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="flex flex-row items-center justify-between"
+            className="flex items-center justify-between gap-3 rounded-xl bg-slate-50/80 px-3 py-2 text-sm text-slate-700 dark:bg-slate-800/50 dark:text-slate-300"
           >
-            {skill.skill}
+            <span className="font-medium">{skill.skill}</span>
             <img
-              className="w-8 h-8 rounded-md"
+              className="h-8 w-8 shrink-0 rounded-lg object-contain"
               src={skill.icon}
-              alt={skill.skill}
+              alt=""
             />
           </li>
         ))}

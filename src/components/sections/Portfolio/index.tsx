@@ -3,30 +3,26 @@ import CardProjectComponent from "../../CardProject/index";
 
 const Portfolio = () => {
   return (
-    <section className="w-full p-3 flex justify-center items-center max-sm:px-5">
-      <div className="flex flex-col items-center justify-center space-y-4 text-center">
-        <div className="space-y-2 ">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-            Portfolio
-          </h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-sm:text-justify">
-            A lo largo de mi aprendizaje y experiencia, he desarrollado varios
-            sitios web y aplicaciones móviles utilizando herramientas como
-            Bootstrap, React, Tailwind y React Native.
-          </p>
-        </div>
-        <div className="w-[80%] grid items-center gap-6 lg:grid-cols-4 max-sm:w-[100%]">
-          {data.map((project, index) => (
-            <CardProjectComponent
-              key={index}
-              title={project.title}
-              skills={project.skills}
-              description={project.description}
-              image={project.image}
-              link={project.link}
-            />
-          ))}
-        </div>
+    <section className="section-shell border-b border-slate-200/60 bg-slate-50/50 dark:border-slate-800/60 dark:bg-night-raised/30">
+      <header className="mb-10 mx-auto max-w-2xl text-center">
+        <p className="section-eyebrow">Proyectos</p>
+        <h2 className="section-title">Portfolio</h2>
+        <p className="section-desc mx-auto text-pretty">
+          Selección de trabajos recientes: web con Bootstrap y aplicación móvil
+          con React Native y Expo.
+        </p>
+      </header>
+      <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2">
+        {data.map((project, index) => (
+          <CardProjectComponent
+            key={index}
+            title={project.title}
+            skills={project.skills}
+            description={project.description}
+            image={project.image}
+            link={project.link}
+          />
+        ))}
       </div>
     </section>
   );
