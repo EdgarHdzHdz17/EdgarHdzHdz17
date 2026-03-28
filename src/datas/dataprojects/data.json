@@ -5,22 +5,22 @@
     "skills": [
       {
         "skill": "HTML",
-        "icon": "./src/assets/icons/html5.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/html5.svg"
       },
       {
         "skill": "CSS",
-        "icon": "./src/assets/icons/css3.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/css3.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/javascript.svg"
       },
       {
         "skill": "Bootstrap",
-        "icon": "./src/assets/icons/bootstrap.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/bootstrap.svg"
       }
     ],
-    "image": "./src/assets/projects/web/Telematica.png",
+    "image": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/projects/web/Telematica.png",
     "link": "https://github.com/EdgarHdzHdz17/Page-Telematica-ICAT.git"
   },
   {
@@ -29,18 +29,18 @@
     "skills": [
       {
         "skill": "JavaScript",
-        "icon": "./src/assets/icons/javascript.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/javascript.svg"
       },
       {
         "skill": "React / React Native",
-        "icon": "./src/assets/icons/react.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/react.svg"
       },
       {
         "skill": "Expo React Native",
-        "icon": "./src/assets/icons/expo.svg"
+        "icon": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/icons/expo.svg"
       }
     ],
-    "image": "./src/assets/projects/mobile/Educatronicapp.png",
+    "image": "https://raw.githubusercontent.com/EdgarHdzHdz17/EdgarHdzHdz17/main/src/assets/projects/mobile/Educatronicapp.png",
     "link": "https://github.com/EdgarHdzHdz17/Educatronicapp.git"
   }
 ]
