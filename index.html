@@ -19,6 +19,19 @@
       content="Edgar Hernández — Desarrollador Frontend. Portfolio y experiencia profesional."
     />
     <title>Edgar Hernández · Frontend Developer</title>
+    <script>
+      (function () {
+        try {
+          var k = "edgar-portfolio-theme";
+          var s = localStorage.getItem(k);
+          var dark =
+            s === "dark" ||
+            (s !== "light" &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

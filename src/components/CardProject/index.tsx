@@ -19,7 +19,7 @@ const CardProjectComponent: FC<CardProjectComponentProps> = ({
 }) => {
   return (
     <article className="group card-surface flex flex-col overflow-hidden">
-      <div className="relative aspect-video w-full overflow-hidden bg-slate-100">
+      <div className="relative aspect-video w-full overflow-hidden bg-slate-100 dark:bg-slate-800/80">
         <img
           src={image}
           width={640}
@@ -29,17 +29,17 @@ const CardProjectComponent: FC<CardProjectComponentProps> = ({
         />
       </div>
       <div className="flex flex-col gap-4 p-6 sm:p-7">
-        <h3 className="text-xl font-semibold tracking-tight text-slate-900">
+        <h3 className="text-xl font-semibold tracking-tight text-slate-900 dark:text-slate-100">
           {title}
         </h3>
-        <p className="text-pretty text-sm leading-relaxed text-slate-600 sm:text-base">
+        <p className="text-pretty text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-400">
           {description}
         </p>
         <div className="flex flex-wrap justify-center gap-2 sm:justify-start">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-100 bg-slate-50/90"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-100 bg-slate-50/90 dark:border-slate-600/40 dark:bg-slate-800/60"
               title={skill.skill}
             >
               <img

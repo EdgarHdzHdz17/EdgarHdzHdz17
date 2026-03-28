@@ -2,7 +2,7 @@ import CardTimeLineComponent from "../../CardTimeline";
 
 const Timeline = () => {
   return (
-    <section className="section-shell border-b border-slate-200/60 bg-slate-50/50">
+    <section className="section-shell border-b border-slate-200/60 bg-slate-50/50 dark:border-slate-800/60 dark:bg-night-raised/30">
       <header className="mb-10 max-w-2xl">
         <p className="section-eyebrow">Trayectoria</p>
         <h2 className="section-title">Experiencia</h2>

@@ -3,7 +3,7 @@ import data from "../../../datas/datacourses/data.json";
 
 const Courses = () => {
   return (
-    <section className="section-shell bg-white pb-24">
+    <section className="section-shell bg-white pb-24 dark:bg-night-base">
       <header className="mb-10 mx-auto max-w-2xl text-center">
         <p className="section-eyebrow">Formación</p>
         <h2 className="section-title">Reconocimientos</h2>

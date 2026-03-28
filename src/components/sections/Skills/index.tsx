@@ -4,7 +4,7 @@ import data from "../../../datas/dataskill/data.json";
 
 const Skills: React.FC = () => {
   return (
-    <section className="section-shell border-b border-slate-200/60 bg-white">
+    <section className="section-shell border-b border-slate-200/60 bg-white dark:border-slate-800/60 dark:bg-night-base">
       <header className="mb-10 max-w-2xl">
         <p className="section-eyebrow">Stack</p>
         <h2 className="section-title">Skills</h2>
