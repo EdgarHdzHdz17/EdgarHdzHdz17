@@ -6,7 +6,6 @@ const Skills: React.FC = () => {
   return (
     <section>
       <header className="mb-5">
-        <p className="section-eyebrow">Stack</p>
         <h2 className="mt-2 text-2xl font-semibold tracking-tight text-ink dark:text-stone-100">
           Skills
         </h2>
