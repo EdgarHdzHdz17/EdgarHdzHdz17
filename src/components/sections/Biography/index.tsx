@@ -7,24 +7,20 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Biography: React.FC = () => {
   return (
-    <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-center lg:gap-14">
-      <div className="relative aspect-[3/4] w-[78%] max-w-[300px] shrink-0 sm:w-[52%] sm:max-w-[340px] lg:w-[32%] lg:max-w-none">
-        <img
-          src={Profile}
-          alt="Edgar Hernández Hernández"
-          className="portrait-fade h-full w-full object-cover object-center"
-        />
-      </div>
-      <div className="flex min-w-0 flex-1 flex-col gap-6 text-center lg:text-left">
+    <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(240px,0.7fr)] lg:gap-16">
+      <div className="order-2 flex min-w-0 flex-col gap-6 lg:order-1">
         <div>
-          <h1 className="mt-2 text-4xl font-semibold tracking-tight text-ink dark:text-stone-100">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent-soft">
+            Sobre mí
+          </p>
+          <h1 className="mt-3 text-4xl font-semibold tracking-tight text-ink sm:text-5xl lg:text-6xl lg:leading-[1.05] dark:text-stone-100">
             Edgar Hernández Hernández
           </h1>
-          <p className="mt-2 text-lg font-medium text-accent sm:text-xl dark:text-accent-soft">
+          <p className="mt-2 text-3xl font-semibold tracking-tight text-accent sm:text-4xl dark:text-accent-soft">
             Frontend Developer
           </p>
         </div>
-        <p className="text-pretty text-base leading-relaxed text-ink-muted sm:text-lg dark:text-stone-400">
+        <p className="max-w-xl text-pretty text-base leading-relaxed text-ink-muted dark:text-stone-400">
           Ingeniero en Computación por la Universidad Nacional Autónoma de
           México y Desarrollador Frontend con 2 años de experiencia en la
           creación de soluciones tecnológicas innovadoras. Mi enfoque principal
@@ -35,8 +31,7 @@ const Biography: React.FC = () => {
           productos que agreguen un valor real a los usuarios y resuelvan sus
           necesidades de manera efectiva.
         </p>
-        <Skills />
-        <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
+        <div className="flex flex-wrap gap-3">
           <ButtonLinkComponent
             name="GitHub"
             url="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17"
@@ -50,6 +45,14 @@ const Biography: React.FC = () => {
             icon={<FaLinkedin className="h-4 w-4" aria-hidden />}
           />
         </div>
+        <Skills />
+      </div>
+      <div className="order-1 mx-auto w-[78%] max-w-[340px] lg:order-2 lg:w-full lg:max-w-none">
+        <img
+          src={Profile}
+          alt="Edgar Hernández Hernández"
+          className="portrait-fade aspect-[4/5] w-full object-cover object-center"
+        />
       </div>
     </div>
   );

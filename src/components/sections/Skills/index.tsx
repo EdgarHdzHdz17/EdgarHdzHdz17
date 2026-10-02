@@ -1,19 +1,24 @@
 import React from "react";
-import CardSkillComponent from "../../CardSkill";
 import data from "../../../datas/dataskill/data.json";
+
+const skills = data.flatMap((group) => group.skills);
 
 const Skills: React.FC = () => {
   return (
     <section aria-label="Skills">
-      <div className="grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2">
-        {data.map((skill, index) => (
-          <CardSkillComponent
-            key={index}
-            title={skill.title}
-            skills={skill.skills}
-          />
+      <h2 className="text-sm font-medium text-ink dark:text-stone-100">
+        Tecnologías que uso
+      </h2>
+      <ul className="mt-3 flex flex-wrap gap-2">
+        {skills.map((skill) => (
+          <li
+            key={skill.skill}
+            className="rounded-full border border-mist-200 px-3.5 py-1.5 text-sm text-ink-muted dark:border-white/15 dark:text-stone-300"
+          >
+            {skill.skill}
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 };
