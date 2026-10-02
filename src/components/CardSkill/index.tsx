@@ -7,7 +7,7 @@ interface CardSkillProps {
 
 const CardSkillComponent: React.FC<CardSkillProps> = ({ title, skills }) => {
   return (
-    <div className="card-surface flex h-full flex-col gap-4 p-5 sm:p-6">
+    <div className="card-surface flex h-full flex-col gap-3 p-4 sm:p-5">
       <h3 className="border-b border-mist-100 pb-3 text-center text-base font-semibold text-ink dark:border-cyan-200/10 dark:text-slate-100">
         {title}
       </h3>

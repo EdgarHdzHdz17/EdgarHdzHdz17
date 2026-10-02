@@ -4,15 +4,14 @@ import data from "../../../datas/dataskill/data.json";
 
 const Skills: React.FC = () => {
   return (
-    <section className="section-shell border-b border-mist-200/70 dark:border-white/5">
-      <header className="mb-10 max-w-2xl">
+    <section>
+      <header className="mb-5">
         <p className="section-eyebrow">Stack</p>
-        <h2 className="section-title">Skills</h2>
-        <p className="section-desc">
-          Herramientas y tecnologías que uso en el día a día.
-        </p>
+        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-ink dark:text-slate-50">
+          Skills
+        </h2>
       </header>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {data.map((skill, index) => (
           <CardSkillComponent
             key={index}
