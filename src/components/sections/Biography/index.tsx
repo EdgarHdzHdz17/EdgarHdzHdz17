@@ -1,23 +1,18 @@
 import React from "react";
-import Profile from "../../../assets/images/AvatarDeveloper.png";
+import Profile from "../../../assets/images/Profile.jpg";
 import ButtonLinkComponent from "../../ButtonLink";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Biography: React.FC = () => {
   return (
-    <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:gap-8">
-        <div className="relative shrink-0">
-          <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-accent-soft/80 via-white to-stone-300/40 blur-sm dark:from-accent-soft/20 dark:via-night-card dark:to-black/50" />
-          <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white shadow-card ring-1 ring-stone-200 dark:border-night-card dark:shadow-card-dark dark:ring-accent-soft/20 sm:h-44 sm:w-44">
-            <img
-              src={Profile}
-              width={176}
-              height={176}
-              alt="Edgar Hernández Hernández"
-              className="h-full w-full object-cover"
-            />
-          </div>
+    <div className="flex flex-col items-stretch gap-8 lg:flex-row lg:gap-8">
+        <div className="relative mx-auto aspect-[3/4] w-full max-w-[17rem] shrink-0 overflow-hidden rounded-3xl shadow-card ring-1 ring-stone-200 dark:shadow-card-dark dark:ring-white/10 sm:max-w-[19rem] lg:mx-0 lg:aspect-auto lg:w-52 lg:max-w-none lg:self-stretch xl:w-60">
+          <img
+            src={Profile}
+            alt="Edgar Hernández Hernández"
+            className="h-full w-full object-cover object-[center_20%] lg:absolute lg:inset-0"
+          />
         </div>
         <div className="flex min-w-0 flex-col gap-6 text-center lg:text-left">
           <div>
