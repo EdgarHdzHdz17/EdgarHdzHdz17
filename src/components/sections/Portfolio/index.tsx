@@ -12,7 +12,7 @@ const Portfolio = () => {
           con React Native y Expo.
         </p>
       </header>
-      <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2">
+      <div className="grid gap-8 sm:grid-cols-2">
         {data.map((project, index) => (
           <CardProjectComponent
             key={index}

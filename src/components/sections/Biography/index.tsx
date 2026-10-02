@@ -6,12 +6,12 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Biography: React.FC = () => {
   return (
-    <div className="flex flex-col items-stretch gap-8 lg:flex-row lg:gap-8">
-        <div className="relative mx-auto aspect-[3/4] w-full max-w-[17rem] shrink-0 overflow-hidden rounded-3xl shadow-card ring-1 ring-stone-200 dark:shadow-card-dark dark:ring-white/10 sm:max-w-[19rem] lg:mx-0 lg:aspect-auto lg:w-52 lg:max-w-none lg:self-stretch xl:w-60">
+    <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-center lg:gap-8">
+        <div className="relative aspect-[3/4] w-[88%] shrink-0 sm:w-[70%] lg:w-[48%]">
           <img
             src={Profile}
             alt="Edgar Hernández Hernández"
-            className="h-full w-full object-cover object-[center_20%] lg:absolute lg:inset-0"
+            className="portrait-fade h-full w-full object-cover object-center"
           />
         </div>
         <div className="flex min-w-0 flex-col gap-6 text-center lg:text-left">

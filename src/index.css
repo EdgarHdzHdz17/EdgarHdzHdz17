@@ -46,7 +46,7 @@
 
 @layer components {
   .section-shell {
-    @apply mx-auto w-full max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:px-8;
+    @apply mx-auto w-full px-5 py-16 sm:px-6 sm:py-20 lg:w-[90%] lg:px-0 lg:py-20;
   }
   .section-eyebrow {
     @apply text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400;
@@ -62,5 +62,19 @@
   }
   .card-surface:hover {
     @apply border-stone-300 shadow-card-hover dark:border-accent-soft/30 dark:shadow-card-dark-hover;
+  }
+  .portrait-fade {
+    -webkit-mask-image:
+      linear-gradient(to right, transparent 0%, #000 18%, #000 82%, transparent 100%),
+      linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
+    mask-image:
+      linear-gradient(to right, transparent 0%, #000 18%, #000 82%, transparent 100%),
+      linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
   }
 }

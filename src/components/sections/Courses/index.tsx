@@ -12,7 +12,7 @@ const Courses = () => {
           trayectoria profesional.
         </p>
       </header>
-      <div className="mx-auto flex max-w-3xl flex-col gap-8">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-8">
         {data.map((course, index) => (
           <CardCourseComponent
             key={index}
