@@ -4,13 +4,8 @@ import data from "../../../datas/dataskill/data.json";
 
 const Skills: React.FC = () => {
   return (
-    <section>
-      <header className="mb-5">
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-ink dark:text-stone-100">
-          Skills
-        </h2>
-      </header>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <section aria-label="Skills">
+      <div className="grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2">
         {data.map((skill, index) => (
           <CardSkillComponent
             key={index}

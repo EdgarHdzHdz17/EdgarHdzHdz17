@@ -1,20 +1,21 @@
 import React from "react";
 import Profile from "../../../assets/images/Profile.jpg";
 import ButtonLinkComponent from "../../ButtonLink";
+import Skills from "../Skills";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Biography: React.FC = () => {
   return (
-    <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-center lg:gap-8">
-      <div className="relative aspect-[3/4] w-[88%] shrink-0 sm:w-[70%] lg:w-[48%]">
+    <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-center lg:gap-14">
+      <div className="relative aspect-[3/4] w-[78%] max-w-[300px] shrink-0 sm:w-[52%] sm:max-w-[340px] lg:w-[32%] lg:max-w-none">
         <img
           src={Profile}
           alt="Edgar Hernández Hernández"
           className="portrait-fade h-full w-full object-cover object-center"
         />
       </div>
-      <div className="flex min-w-0 flex-col gap-6 text-center lg:text-left">
+      <div className="flex min-w-0 flex-1 flex-col gap-6 text-center lg:text-left">
         <div>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-ink dark:text-stone-100">
             Edgar Hernández Hernández
@@ -34,6 +35,7 @@ const Biography: React.FC = () => {
           productos que agreguen un valor real a los usuarios y resuelvan sus
           necesidades de manera efectiva.
         </p>
+        <Skills />
         <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
           <ButtonLinkComponent
             name="GitHub"

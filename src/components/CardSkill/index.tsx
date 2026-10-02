@@ -7,22 +7,22 @@ interface CardSkillProps {
 
 const CardSkillComponent: React.FC<CardSkillProps> = ({ title, skills }) => {
   return (
-    <div className="card-surface flex h-full flex-col gap-3 p-4 sm:p-5">
-      <h3 className="border-b border-mist-100 pb-3 text-center text-base font-semibold text-ink dark:border-white/10 dark:text-stone-100">
+    <div className="flex flex-col items-center gap-2.5 lg:items-start">
+      <h3 className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-subtle dark:text-stone-500">
         {title}
       </h3>
-      <ul className="flex flex-col gap-3">
+      <ul className="flex flex-wrap justify-center gap-2 lg:justify-start">
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="flex items-center justify-between gap-3 rounded-xl bg-mist-50/90 px-3 py-2 text-sm text-ink-muted dark:bg-white/5 dark:text-stone-300"
+            className="inline-flex items-center gap-2 rounded-full border border-mist-200/80 bg-mist-50/80 py-1 pl-1.5 pr-3 text-sm text-ink-muted dark:border-white/10 dark:bg-white/5 dark:text-stone-300"
           >
-            <span className="font-medium">{skill.skill}</span>
             <img
-              className="h-8 w-8 shrink-0 rounded-lg object-contain"
+              className="h-6 w-6 shrink-0 rounded-full bg-white/90 object-contain p-0.5 dark:bg-white"
               src={skill.icon}
               alt=""
             />
+            <span className="font-medium">{skill.skill}</span>
           </li>
         ))}
       </ul>
