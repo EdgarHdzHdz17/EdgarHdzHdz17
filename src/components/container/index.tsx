@@ -19,7 +19,7 @@ const Container = () => {
       <Timeline />
       <ProjectsWeb />
       <Courses />
-      <footer className="border-t border-mist-200/70 py-8 text-center text-sm text-ink-subtle dark:border-white/10 dark:text-slate-500">
+      <footer className="border-t border-mist-200/70 py-8 text-center text-sm text-ink-subtle dark:border-white/10 dark:text-stone-500">
         © {new Date().getFullYear()} Edgar Hernández Hernández
       </footer>
       </div>

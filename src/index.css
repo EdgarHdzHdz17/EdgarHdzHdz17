@@ -5,42 +5,42 @@
 
 @layer base {
   :root {
-    --glow: #22d3ee;
-    --contour: rgba(47, 84, 114, 0.42);
-    --contour-light: rgba(232, 246, 255, 0.72);
-    --ridge-far: #d7e5ef;
-    --ridge-mid: #8eafc6;
-    --ridge-near: #2a5270;
-    --particle: #0e7490;
-    --hero-wash: #f4f8fb;
+    --glow: #b08968;
+    --contour: rgba(74, 58, 42, 0.32);
+    --contour-light: rgba(255, 248, 236, 0.72);
+    --ridge-far: #efe8df;
+    --ridge-mid: #cfc3b2;
+    --ridge-near: #4a3d32;
+    --particle: #8d7355;
+    --hero-wash: #f4f1ec;
   }
   html {
     scroll-behavior: smooth;
   }
   html.dark {
     color-scheme: dark;
-    --glow: #7af3ff;
-    --contour: rgba(176, 214, 232, 0.28);
-    --contour-light: rgba(198, 236, 255, 0.4);
-    --ridge-far: #123044;
-    --ridge-mid: #0c2234;
-    --ridge-near: #06141f;
-    --particle: #b6f6ff;
-    --hero-wash: #07131c;
+    --glow: #e6d3b8;
+    --contour: rgba(230, 214, 190, 0.2);
+    --contour-light: rgba(243, 232, 214, 0.34);
+    --ridge-far: #1a1612;
+    --ridge-mid: #100e0c;
+    --ridge-near: #050403;
+    --particle: #e6d3b8;
+    --hero-wash: #090807;
   }
   html:not(.dark) {
     color-scheme: light;
   }
   body {
-    @apply min-h-screen bg-mist-50 font-sans text-ink antialiased transition-colors duration-300 dark:bg-night-base dark:text-slate-200;
+    @apply min-h-screen bg-mist-50 font-sans text-ink antialiased transition-colors duration-300 dark:bg-night-base dark:text-stone-300;
     background-image:
-      radial-gradient(920px 460px at 88% -8%, rgba(186, 214, 230, 0.55), transparent 62%),
-      radial-gradient(680px 380px at 0% 18%, rgba(207, 228, 236, 0.45), transparent 58%);
+      radial-gradient(880px 520px at 8% -6%, rgba(232, 210, 176, 0.55), transparent 58%),
+      linear-gradient(105deg, transparent 42%, rgba(28, 22, 16, 0.07) 100%);
   }
   html.dark body {
     background-image:
-      radial-gradient(860px 440px at 90% -6%, rgba(34, 211, 238, 0.08), transparent 58%),
-      radial-gradient(640px 420px at 6% 24%, rgba(16, 58, 88, 0.45), transparent 62%);
+      radial-gradient(820px 480px at 6% -8%, rgba(196, 164, 112, 0.16), transparent 56%),
+      linear-gradient(100deg, transparent 32%, rgba(0, 0, 0, 0.55) 100%);
   }
 }
 
@@ -49,18 +49,18 @@
     @apply mx-auto w-full max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:px-8;
   }
   .section-eyebrow {
-    @apply text-xs font-semibold uppercase tracking-[0.22em] text-cyan-800/70 dark:text-cyan-200/60;
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400;
   }
   .section-title {
-    @apply mt-2 text-3xl font-semibold tracking-tight text-ink sm:text-4xl dark:text-slate-50;
+    @apply mt-2 text-3xl font-semibold tracking-tight text-ink sm:text-4xl dark:text-stone-100;
   }
   .section-desc {
-    @apply mt-3 max-w-2xl text-base leading-relaxed text-ink-muted sm:text-lg dark:text-slate-400;
+    @apply mt-3 max-w-2xl text-base leading-relaxed text-ink-muted sm:text-lg dark:text-stone-400;
   }
   .card-surface {
-    @apply rounded-3xl border border-white/80 bg-white/75 shadow-card backdrop-blur-md transition-[box-shadow,border-color,background-color] duration-300 dark:border-cyan-200/10 dark:bg-night-card/80 dark:shadow-card-dark;
+    @apply rounded-3xl border border-stone-200/80 bg-[#fffcf8]/80 shadow-card backdrop-blur-md transition-[box-shadow,border-color,background-color] duration-300 dark:border-white/10 dark:bg-night-card/85 dark:shadow-card-dark;
   }
   .card-surface:hover {
-    @apply border-cyan-200/80 shadow-card-hover dark:border-cyan-300/30 dark:shadow-card-dark-hover;
+    @apply border-stone-300 shadow-card-hover dark:border-accent-soft/30 dark:shadow-card-dark-hover;
   }
 }

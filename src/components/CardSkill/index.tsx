@@ -8,14 +8,14 @@ interface CardSkillProps {
 const CardSkillComponent: React.FC<CardSkillProps> = ({ title, skills }) => {
   return (
     <div className="card-surface flex h-full flex-col gap-3 p-4 sm:p-5">
-      <h3 className="border-b border-mist-100 pb-3 text-center text-base font-semibold text-ink dark:border-cyan-200/10 dark:text-slate-100">
+      <h3 className="border-b border-mist-100 pb-3 text-center text-base font-semibold text-ink dark:border-white/10 dark:text-stone-100">
         {title}
       </h3>
       <ul className="flex flex-col gap-3">
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="flex items-center justify-between gap-3 rounded-xl bg-mist-50/90 px-3 py-2 text-sm text-ink-muted dark:bg-white/5 dark:text-slate-300"
+            className="flex items-center justify-between gap-3 rounded-xl bg-mist-50/90 px-3 py-2 text-sm text-ink-muted dark:bg-white/5 dark:text-stone-300"
           >
             <span className="font-medium">{skill.skill}</span>
             <img

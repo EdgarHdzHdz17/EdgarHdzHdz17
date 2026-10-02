@@ -29,17 +29,17 @@ const CardProjectComponent: FC<CardProjectComponentProps> = ({
         />
       </div>
       <div className="flex flex-col gap-4 p-6 sm:p-7">
-        <h3 className="text-xl font-semibold tracking-tight text-ink dark:text-slate-100">
+        <h3 className="text-xl font-semibold tracking-tight text-ink dark:text-stone-100">
           {title}
         </h3>
-        <p className="text-pretty text-sm leading-relaxed text-ink-muted sm:text-base dark:text-slate-400">
+        <p className="text-pretty text-sm leading-relaxed text-ink-muted sm:text-base dark:text-stone-400">
           {description}
         </p>
         <div className="flex flex-wrap justify-center gap-2 sm:justify-start">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-mist-100 bg-mist-50/90 dark:border-cyan-200/10 dark:bg-white/5"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-mist-100 bg-mist-50/90 dark:border-white/10 dark:bg-white/5"
               title={skill.skill}
             >
               <img

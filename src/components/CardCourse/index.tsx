@@ -23,7 +23,7 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
   return (
     <article className="card-surface flex flex-col gap-6 overflow-hidden p-6 sm:p-8">
       <div className="flex flex-col gap-6 lg:flex-row-reverse lg:items-start">
-        <div className="shrink-0 overflow-hidden rounded-2xl border border-mist-100 bg-mist-50 lg:w-[min(100%,280px)] dark:border-cyan-200/10 dark:bg-night-raised">
+        <div className="shrink-0 overflow-hidden rounded-2xl border border-mist-100 bg-mist-50 lg:w-[min(100%,280px)] dark:border-white/10 dark:bg-night-raised">
           <img
             src={image}
             alt=""
@@ -34,14 +34,14 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
         </div>
         <div className="min-w-0 flex-1 space-y-4">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-4">
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-cyan-50 text-accent dark:bg-cyan-400/10 dark:text-accent-soft">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-mist-100 text-accent dark:bg-white/5 dark:text-accent-soft">
               <PiCertificateFill className="h-7 w-7" aria-hidden />
             </div>
             <div>
-              <h3 className="text-xl font-semibold tracking-tight text-ink sm:text-2xl dark:text-slate-100">
+              <h3 className="text-xl font-semibold tracking-tight text-ink sm:text-2xl dark:text-stone-100">
                 {title}
               </h3>
-              <dl className="mt-3 space-y-1 text-sm text-ink-muted dark:text-slate-400">
+              <dl className="mt-3 space-y-1 text-sm text-ink-muted dark:text-stone-400">
                 <div>
                   <dt className="sr-only">Fecha</dt>
                   <dd>Emitido: {date}</dd>
@@ -53,12 +53,12 @@ const CardCourseComponent: React.FC<CardCourseComponentProps> = ({
               </dl>
             </div>
           </div>
-          <p className="text-pretty text-sm leading-relaxed text-ink-muted sm:text-base dark:text-slate-400">
+          <p className="text-pretty text-sm leading-relaxed text-ink-muted sm:text-base dark:text-stone-400">
             {description}
           </p>
         </div>
       </div>
-      <div className="flex justify-center border-t border-mist-100 pt-6 sm:justify-start dark:border-cyan-200/10">
+      <div className="flex justify-center border-t border-mist-100 pt-6 sm:justify-start dark:border-white/10">
         <ButtonLinkComponent
           name="Ver en GitHub"
           url={link}
