@@ -19,7 +19,7 @@ const ThemeToggle = () => {
     <button
       type="button"
       onClick={toggle}
-      className="fixed right-4 top-4 z-[100] flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-200/90 bg-white/90 text-slate-700 shadow-card backdrop-blur-md transition-all hover:border-slate-300 hover:bg-white dark:border-slate-600/50 dark:bg-night-raised/90 dark:text-amber-200/95 dark:shadow-card-dark dark:hover:border-slate-500 dark:hover:bg-night-card"
+      className="fixed right-4 top-4 z-[100] flex h-11 w-11 items-center justify-center rounded-2xl border border-mist-200/90 bg-white/80 text-ink shadow-card backdrop-blur-md transition-all hover:border-cyan-300 hover:bg-white dark:border-cyan-200/20 dark:bg-night-raised/80 dark:text-cyan-100 dark:shadow-card-dark dark:hover:border-cyan-300/40 dark:hover:bg-night-card"
       aria-label={dark ? "Activar modo claro" : "Activar modo oscuro"}
     >
       {dark ? (

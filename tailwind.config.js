@@ -17,36 +17,41 @@ export default {
       colors: {
         surface: {
           DEFAULT: "#ffffff",
-          muted: "#f8fafc",
+          muted: "#f4f8fb",
+        },
+        mist: {
+          50: "#f4f8fb",
+          100: "#e7eef4",
+          200: "#d3e1eb",
         },
         ink: {
-          DEFAULT: "#0f172a",
-          muted: "#64748b",
-          subtle: "#94a3b8",
+          DEFAULT: "#152433",
+          muted: "#5c6e80",
+          subtle: "#8aa0b3",
         },
         accent: {
-          DEFAULT: "#2563eb",
-          hover: "#1d4ed8",
-          soft: "#38bdf8",
+          DEFAULT: "#0e7490",
+          hover: "#155e75",
+          soft: "#67e8f9",
         },
         night: {
-          base: "#0a0c10",
-          raised: "#12161e",
-          card: "#161c28",
-          border: "rgba(148, 163, 184, 0.12)",
+          base: "#07131c",
+          raised: "#0c1c2a",
+          card: "#102536",
+          border: "rgba(103, 232, 249, 0.14)",
         },
         "background-color": "#242424",
         "background-perfil": "#38b6ff",
         "background-taghtml": "#FC8842",
       },
       boxShadow: {
-        card: "0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 24px rgba(15, 23, 42, 0.06)",
+        card: "0 1px 2px rgba(21, 36, 51, 0.04), 0 10px 32px rgba(21, 50, 72, 0.06)",
         "card-hover":
-          "0 4px 12px rgba(15, 23, 42, 0.08), 0 12px 40px rgba(15, 23, 42, 0.08)",
+          "0 4px 16px rgba(21, 36, 51, 0.06), 0 16px 44px rgba(14, 116, 144, 0.1)",
         "card-dark":
-          "0 0 0 1px rgba(148, 163, 184, 0.08), 0 8px 40px rgba(0, 0, 0, 0.45)",
+          "0 0 0 1px rgba(103, 232, 249, 0.08), 0 12px 40px rgba(0, 0, 0, 0.38)",
         "card-dark-hover":
-          "0 0 0 1px rgba(148, 163, 184, 0.14), 0 14px 56px rgba(0, 0, 0, 0.55)",
+          "0 0 0 1px rgba(103, 232, 249, 0.32), 0 0 28px rgba(34, 211, 238, 0.14), 0 16px 48px rgba(0, 0, 0, 0.45)",
       },
       borderRadius: {
         "2xl": "1rem",
