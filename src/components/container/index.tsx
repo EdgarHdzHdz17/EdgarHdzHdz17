@@ -1,7 +1,7 @@
 import Biography from "../../components/sections/Biography";
+import Skills from "../sections/Skills";
 import Timeline from "../sections/Timeline";
 import ProjectsWeb from "../sections/Portfolio";
-import Courses from "../sections/Courses";
 
 const Container = () => {
   return (
@@ -10,8 +10,8 @@ const Container = () => {
         <Biography />
       </section>
       <Timeline />
+      <Skills />
       <ProjectsWeb />
-      <Courses />
       <footer className="border-t border-mist-200/70 py-8 text-center text-sm text-ink-subtle dark:border-white/10 dark:text-stone-500">
         © {new Date().getFullYear()} Edgar Hernández Hernández
       </footer>

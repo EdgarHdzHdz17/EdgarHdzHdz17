@@ -1,7 +1,6 @@
 import React from "react";
 import Profile from "../../../assets/images/Profile.jpg";
 import ButtonLinkComponent from "../../ButtonLink";
-import Skills from "../Skills";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -22,14 +21,8 @@ const Biography: React.FC = () => {
         </div>
         <p className="max-w-xl text-pretty text-base leading-relaxed text-ink-muted dark:text-stone-400">
           Ingeniero en Computación por la Universidad Nacional Autónoma de
-          México y Desarrollador Frontend con 2 años de experiencia en la
-          creación de soluciones tecnológicas innovadoras. Mi enfoque principal
-          es el desarrollo de sitios web y aplicaciones móviles que no solo sean
-          visualmente atractivas, sino que también ofrezcan una experiencia de
-          usuario intuitiva y eficiente. Estoy comprometido con la utilización
-          de las mejores prácticas y tecnologías actuales para entregar
-          productos que agreguen un valor real a los usuarios y resuelvan sus
-          necesidades de manera efectiva.
+          México y Desarrollador Frontend enfocado en el desarrollo de
+          aplicaciones web y móviles utilizando React y React Native.
         </p>
         <div className="flex flex-wrap gap-3">
           <ButtonLinkComponent
@@ -45,7 +38,6 @@ const Biography: React.FC = () => {
             icon={<FaLinkedin className="h-4 w-4" aria-hidden />}
           />
         </div>
-        <Skills />
       </div>
       <div className="order-1 mx-auto w-[78%] max-w-[340px] lg:order-2 lg:w-full lg:max-w-none">
         <img
