@@ -7,10 +7,6 @@ const Portfolio = () => {
       <header className="mb-10 mx-auto max-w-2xl text-center">
         <p className="section-eyebrow">Proyectos</p>
         <h2 className="section-title">Portfolio</h2>
-        <p className="section-desc mx-auto text-pretty">
-          Selección de trabajos recientes: web con Bootstrap y aplicación móvil
-          con React Native y Expo.
-        </p>
       </header>
       <div className="grid gap-8 sm:grid-cols-2">
         {data.map((project, index) => (

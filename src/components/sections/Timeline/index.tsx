@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { IoChevronBack, IoChevronForward } from "react-icons/io5";
+import { FaRegBuilding } from "react-icons/fa";
+import {
+  IoChevronBack,
+  IoChevronForward,
+  IoTimeOutline,
+} from "react-icons/io5";
 import CardTimeLineComponent from "../../CardTimeline";
 
 const experiences = [
@@ -20,24 +25,29 @@ const experiences = [
   {
     role: "Frontend Developer",
     company: "Adaption",
-    date: "Junio 2024 - Actualidad",
+    date: "Junio 2024 - Julio 2025",
     description:
-      "Actualmente me desempeño como Frontend Developer en Adaption, donde me encargo de la creación de interfaces de usuario y sistemas responsivos utilizando React. También participo en la creación de aplicaciones móviles con React Native.",
+      "Me desempeñé como Frontend Developer en Adaption, donde me encargaba de la creación de interfaces de usuario y sistemas responsivos utilizando React. También participé en la creación de aplicaciones móviles con React Native.",
   },
   {
     role: "Frontend Developer",
-    company: "Binkio",
+    company: "Binkio · Remoto",
     date: "Julio 2025 - Noviembre 2025",
     description:
       "Me desempeñé como Frontend Developer en Binkio, donde participé en la creación de interfaces de usuario.",
   },
   {
     role: "Software Developer",
-    company: "Lapxo",
+    company: "Lapxo · Remoto",
     date: "Noviembre 2025 - Actualidad",
     description: "Actualmente me desempeño como Software Developer en Lapxo.",
   },
 ];
+
+const currentRoles = experiences
+  .filter((item) => item.date.includes("Actualidad"))
+  .reverse();
+const history = experiences.filter((item) => !item.date.includes("Actualidad"));
 
 const arrowClass =
   "absolute top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-night-card/90 text-stone-100 shadow-card-dark backdrop-blur-md transition hover:border-accent-soft/40 hover:text-accent-soft";
@@ -85,44 +95,68 @@ const Timeline = () => {
       <header className="mb-10 max-w-2xl">
         <p className="section-eyebrow">Trayectoria</p>
         <h2 className="section-title">Experiencia</h2>
-        <p className="section-desc">
-          Prácticas, beca y rol actual en desarrollo frontend y aplicaciones
-          móviles.
-        </p>
       </header>
-      <div className="relative">
-        {canLeft && (
-          <button
-            type="button"
-            aria-label="Ver experiencias anteriores"
-            onClick={() => scroll(-1)}
-            className={`${arrowClass} left-3`}
+      <div className="flex items-stretch gap-4 sm:gap-6">
+        {currentRoles.map((item) => (
+          <article
+            key={`${item.company}-${item.date}`}
+            className="relative flex w-[min(68vw,22rem)] shrink-0 flex-col overflow-hidden rounded-3xl border border-accent-soft/35 bg-night-card/90 p-5 shadow-card-dark sm:p-6"
           >
-            <IoChevronBack className="h-5 w-5" />
-          </button>
-        )}
-        {canRight && (
-          <button
-            type="button"
-            aria-label="Ver experiencias siguientes"
-            onClick={() => scroll(1)}
-            className={`${arrowClass} right-3`}
-          >
-            <IoChevronForward className="h-5 w-5" />
-          </button>
-        )}
-        <div
-          ref={scroller}
-          className="flex snap-x snap-mandatory gap-6 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-        >
-          {experiences.map((item) => (
-            <div
-              key={`${item.company}-${item.date}`}
-              className="flex w-[min(100%,22rem)] shrink-0 snap-start"
+            <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-accent-soft to-accent" />
+            <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-accent-soft">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-soft" />
+              Actual
+            </p>
+            <h3 className="mt-4 text-xl font-semibold tracking-tight text-stone-50 sm:text-2xl">
+              {item.role}
+            </h3>
+            <p className="mt-3 flex items-center gap-2 text-sm text-stone-200">
+              <FaRegBuilding className="h-4 w-4 shrink-0 text-accent-soft" />
+              {item.company}
+            </p>
+            <p className="mt-2 flex items-center gap-2 text-sm font-medium text-accent-soft">
+              <IoTimeOutline className="h-4 w-4" />
+              {item.date}
+            </p>
+            <p className="mt-4 text-pretty text-sm leading-relaxed text-stone-400 sm:text-base">
+              {item.description}
+            </p>
+          </article>
+        ))}
+        <div className="relative min-w-0 flex-1">
+          {canLeft && (
+            <button
+              type="button"
+              aria-label="Ver experiencias anteriores"
+              onClick={() => scroll(-1)}
+              className={`${arrowClass} left-3`}
             >
-              <CardTimeLineComponent {...item} />
-            </div>
-          ))}
+              <IoChevronBack className="h-5 w-5" />
+            </button>
+          )}
+          {canRight && (
+            <button
+              type="button"
+              aria-label="Ver experiencias siguientes"
+              onClick={() => scroll(1)}
+              className={`${arrowClass} right-3`}
+            >
+              <IoChevronForward className="h-5 w-5" />
+            </button>
+          )}
+          <div
+            ref={scroller}
+            className="flex h-full snap-x snap-mandatory gap-4 overflow-x-auto sm:gap-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          >
+            {history.map((item) => (
+              <div
+                key={`${item.company}-${item.date}`}
+                className="flex w-[min(100%,20rem)] shrink-0 snap-start"
+              >
+                <CardTimeLineComponent {...item} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

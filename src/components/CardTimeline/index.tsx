@@ -16,9 +16,9 @@ const CardTimeLineComponent: React.FC<CardTimeLineProps> = ({
   description,
 }) => {
   return (
-    <article className="card-surface group flex h-full flex-col gap-4 p-6 sm:p-7">
-      <div className="h-1 w-10 rounded-full bg-gradient-to-r from-accent to-accent-soft transition-all group-hover:w-14" />
-      <h3 className="text-xl font-semibold tracking-tight text-ink dark:text-stone-100">
+    <article className="card-surface group flex h-full flex-col gap-3 p-5 sm:p-6">
+      <div className="h-px w-8 bg-white/15 transition-all group-hover:w-12" />
+      <h3 className="text-lg font-semibold tracking-tight text-stone-300">
         {role}
       </h3>
       <div className="flex flex-col gap-2 text-sm text-ink-muted dark:text-stone-400">

@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Biography: React.FC = () => {
   return (
     <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(240px,0.7fr)] lg:gap-16">
-      <div className="order-2 flex min-w-0 flex-col gap-6 lg:order-1">
+      <div className="order-2 flex min-w-0 flex-col gap-12 lg:order-1 lg:gap-16">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent-soft">
             Sobre mí
@@ -19,12 +19,12 @@ const Biography: React.FC = () => {
             Frontend Developer
           </p>
         </div>
-        <p className="max-w-xl text-pretty text-base leading-relaxed text-ink-muted dark:text-stone-400">
+        <p className="mx-auto max-w-xl text-justify text-base leading-relaxed text-ink-muted dark:text-stone-400">
           Ingeniero en Computación por la Universidad Nacional Autónoma de
           México y Desarrollador Frontend enfocado en el desarrollo de
           aplicaciones web y móviles utilizando React y React Native.
         </p>
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap justify-center gap-3">
           <ButtonLinkComponent
             name="GitHub"
             url="https://github.com/EdgarHdzHdz17/EdgarHdzHdz17"
