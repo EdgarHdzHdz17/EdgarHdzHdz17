@@ -4,10 +4,17 @@ import skillsData from "../../../datas/dataskill/data.json";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const skills = skillsData.flatMap((group) => group.skills);
+const skillByName = Object.fromEntries(skills.map((item) => [item.skill, item]));
+
+const skillRows = [
+  ["HTML", "JavaScript", "TypeScript", "CSS"],
+  ["React", "Expo React Native", "Vite JS", "Tailwind", "Bootstrap"],
+  ["Git", "GitHub", "Jira", "Slack", "Figma", "Notion"],
+].map((names) => names.map((name) => skillByName[name]));
 
 const sideLinks = [
   {
-    label: "Experiencia",
+    label: "",
     text: "Rol actual en Lapxo y trayectoria en desarrollo frontend.",
     href: "#experiencia",
     action: "Ver trayectoria",
@@ -36,20 +43,29 @@ const Biography: React.FC = () => {
           México y Desarrollador Frontend enfocado en el desarrollo de
           aplicaciones web y móviles utilizando React y React Native.
         </p>
-        <ul className="mt-8 flex max-w-md flex-wrap gap-2">
-          {skills.map((item) => (
-            <li key={item.skill}>
-              <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-stone-300">
-                <img
-                  src={item.icon}
-                  alt=""
-                  className="h-3.5 w-3.5 shrink-0 object-contain"
-                />
-                {item.skill}
-              </span>
-            </li>
+        <div className="mt-8 flex w-full max-w-md flex-col items-center gap-5 lg:max-w-none lg:translate-x-4 xl:translate-x-6">
+          {skillRows.map((row) => (
+            <ul key={row[0].skill} className="flex justify-center gap-x-3 gap-y-1">
+              {row.map((item) => (
+                <li
+                  key={item.skill}
+                  className={`flex flex-col items-center gap-1.5 text-center text-[11px] leading-tight text-stone-300 ${
+                    item.skill === "Expo React Native" ? "whitespace-nowrap" : "w-14"
+                  }`}
+                >
+                  <img
+                    src={item.icon}
+                    alt=""
+                    className={`h-6 w-6 shrink-0 object-contain ${
+                      item.skill === "Expo React Native" ? "rounded-sm bg-white" : ""
+                    }`}
+                  />
+                  {item.skill}
+                </li>
+              ))}
+            </ul>
           ))}
-        </ul>
+        </div>
       </div>
 
       <div className="mx-auto w-[78%] max-w-[340px] lg:w-full lg:max-w-none">
@@ -63,10 +79,12 @@ const Biography: React.FC = () => {
       <aside className="flex flex-col gap-8 lg:gap-10">
         {sideLinks.map((item) => (
           <div key={item.href}>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-stone-400">
-              {item.label}
-            </p>
-            <p className="mt-3 text-sm leading-relaxed text-stone-400">
+            {item.label ? (
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-stone-400">
+                {item.label}
+              </p>
+            ) : null}
+            <p className={`${item.label ? "mt-3" : ""} text-sm leading-relaxed text-stone-400`}>
               {item.text}
             </p>
             <a
