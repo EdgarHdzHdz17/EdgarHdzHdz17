@@ -18,12 +18,12 @@ const CardProjectComponent: FC<CardProjectComponentProps> = ({
   link,
 }) => {
   return (
-    <article className="group card-surface flex h-full flex-col overflow-hidden">
+    <article className="group card-surface flex h-full w-full flex-col overflow-hidden">
       <div className="relative min-h-0 w-full flex-1 overflow-hidden bg-mist-100 dark:bg-night-raised">
         <img
           src={image}
           alt={title}
-          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+          className="absolute inset-0 h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
         />
       </div>
       <div className="mt-auto flex flex-col gap-4 p-6 sm:p-7">

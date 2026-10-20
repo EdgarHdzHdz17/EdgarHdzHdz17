@@ -4,7 +4,7 @@ import data from "../../../datas/dataprojects/data.json";
 import CardProjectComponent from "../../CardProject/index";
 
 const arrowClass =
-  "absolute top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-night-card/90 text-stone-100 shadow-card-dark backdrop-blur-md transition hover:border-accent-soft/40 hover:text-accent-soft";
+  "absolute top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-night-card/90 text-stone-100 shadow-card-dark backdrop-blur-md transition hover:border-accent-soft/40 hover:text-accent-soft";
 
 const Portfolio = () => {
   const scroller = useRef<HTMLDivElement>(null);
