@@ -91,7 +91,10 @@ const Timeline = () => {
   };
 
   return (
-    <section className="section-shell border-b border-mist-200/70 dark:border-white/5">
+    <section
+      id="experiencia"
+      className="section-shell scroll-mt-8 border-b border-mist-200/70 dark:border-white/5"
+    >
       <header className="mb-10 max-w-2xl">
         <p className="section-eyebrow">Trayectoria</p>
         <h2 className="section-title">Experiencia</h2>

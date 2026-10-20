@@ -3,7 +3,10 @@ import CardProjectComponent from "../../CardProject/index";
 
 const Portfolio = () => {
   return (
-    <section className="section-shell border-b border-mist-200/70 dark:border-white/5">
+    <section
+      id="proyectos"
+      className="section-shell scroll-mt-8 border-b border-mist-200/70 dark:border-white/5"
+    >
       <header className="mb-10 mx-auto max-w-2xl text-center">
         <h2 className="section-title mt-0">Proyectos</h2>
       </header>
