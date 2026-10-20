@@ -96,8 +96,9 @@ const Timeline = () => {
       className="section-shell scroll-mt-8 border-b border-mist-200/70 dark:border-white/5"
     >
       <header className="mb-10 max-w-2xl">
-        <p className="section-eyebrow">Trayectoria</p>
-        <h2 className="section-title">Experiencia</h2>
+        <h2 className="text-3xl font-semibold tracking-tight text-accent sm:text-4xl dark:text-accent-soft">
+          Trayectoria
+        </h2>
       </header>
       <div className="flex items-stretch gap-4 sm:gap-6">
         {currentRoles.map((item) => (

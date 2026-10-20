@@ -45,11 +45,8 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="proyectos" className="flex h-full min-h-0 min-w-0 scroll-mt-8 flex-col">
-      <h2 className="text-2xl font-semibold tracking-tight text-ink sm:text-3xl dark:text-stone-100">
-        Proyectos
-      </h2>
-      <div className="relative mt-6 flex min-h-0 min-w-0 flex-1 flex-col">
+    <div className="flex h-full min-h-0 min-w-0 flex-col">
+      <div className="relative flex min-h-0 min-w-0 flex-1 flex-col">
         {canLeft && (
           <button
             type="button"
