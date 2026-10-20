@@ -1,24 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-import keepPreset from "keep-react/preset";
 export default {
   darkMode: "class",
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-    "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
-    "node_modules/flowbite-react/lib/esm/**/*.js",
-  ],
-  presets: [keepPreset],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', "system-ui", "sans-serif"],
       },
       colors: {
-        surface: {
-          DEFAULT: "#ffffff",
-          muted: "#f4f8fb",
-        },
         mist: {
           50: "#f4f1ec",
           100: "#e8e2d9",
@@ -31,18 +20,13 @@ export default {
         },
         accent: {
           DEFAULT: "#6f5840",
-          hover: "#5c4834",
           soft: "#e4d5c0",
         },
         night: {
           base: "#090807",
           raised: "#141210",
           card: "#1c1916",
-          border: "rgba(228, 213, 192, 0.14)",
         },
-        "background-color": "#242424",
-        "background-perfil": "#38b6ff",
-        "background-taghtml": "#FC8842",
       },
       boxShadow: {
         card: "0 1px 2px rgba(26, 22, 18, 0.05), 0 10px 32px rgba(26, 22, 18, 0.07)",
@@ -59,5 +43,4 @@ export default {
       },
     },
   },
-  plugins: [require("flowbite/plugin")],
 };
