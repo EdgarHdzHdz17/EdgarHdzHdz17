@@ -6,7 +6,7 @@ const Courses = () => {
     <section className="section-shell pb-24">
       <header className="mb-10 mx-auto max-w-2xl text-center">
         <p className="section-eyebrow">Formación</p>
-        <h2 className="section-title">Reconocimientos</h2>
+        <h2 className="section-title">Desarrollo profesional</h2>
         <p className="section-desc mx-auto text-pretty">
           Certificaciones y participación en eventos que han complementado mi
           trayectoria profesional.

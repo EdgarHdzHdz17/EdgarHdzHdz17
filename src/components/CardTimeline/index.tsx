@@ -31,7 +31,7 @@ const CardTimeLineComponent: React.FC<CardTimeLineProps> = ({
           <span>{date}</span>
         </p>
       </div>
-      <p className="text-pretty text-sm leading-relaxed text-ink-muted sm:text-base dark:text-stone-400">
+      <p className="text-justify text-sm leading-relaxed text-ink-muted dark:text-stone-400">
         {description}
       </p>
     </article>

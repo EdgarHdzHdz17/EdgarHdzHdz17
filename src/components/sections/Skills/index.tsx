@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
       <div className="grid items-stretch gap-12 lg:grid-cols-2 lg:gap-14">
         <div className="flex h-full flex-col">
           <h2 className="text-2xl font-semibold tracking-tight text-ink sm:text-3xl dark:text-stone-100">
-            Reconocimientos
+            Desarrollo profesional
           </h2>
           <div className="mt-6 grid flex-1 auto-rows-fr gap-4">
             {coursesData.map((course, index) => (

@@ -5,8 +5,7 @@ const Portfolio = () => {
   return (
     <section className="section-shell border-b border-mist-200/70 dark:border-white/5">
       <header className="mb-10 mx-auto max-w-2xl text-center">
-        <p className="section-eyebrow">Proyectos</p>
-        <h2 className="section-title">Portfolio</h2>
+        <h2 className="section-title mt-0">Proyectos</h2>
       </header>
       <div className="grid gap-8 sm:grid-cols-2">
         {data.map((project, index) => (

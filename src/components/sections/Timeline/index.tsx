@@ -118,7 +118,7 @@ const Timeline = () => {
               <IoTimeOutline className="h-4 w-4" />
               {item.date}
             </p>
-            <p className="mt-4 text-pretty text-sm leading-relaxed text-stone-400 sm:text-base">
+            <p className="mt-4 text-justify text-sm leading-relaxed text-stone-400">
               {item.description}
             </p>
           </article>
