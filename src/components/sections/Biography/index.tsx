@@ -1,7 +1,9 @@
 import React from "react";
 import Profile from "../../../assets/images/Profile.jpg";
+import skillsData from "../../../datas/dataskill/data.json";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoChevronDown } from "react-icons/io5";
+
+const skills = skillsData.flatMap((group) => group.skills);
 
 const sideLinks = [
   {
@@ -34,13 +36,20 @@ const Biography: React.FC = () => {
           México y Desarrollador Frontend enfocado en el desarrollo de
           aplicaciones web y móviles utilizando React y React Native.
         </p>
-        <a
-          href="#experiencia"
-          aria-label="Ir a experiencia"
-          className="mt-8 inline-flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-night-base transition-colors hover:bg-white"
-        >
-          <IoChevronDown className="h-6 w-6" />
-        </a>
+        <ul className="mt-8 flex max-w-md flex-wrap gap-2">
+          {skills.map((item) => (
+            <li key={item.skill}>
+              <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-stone-300">
+                <img
+                  src={item.icon}
+                  alt=""
+                  className="h-3.5 w-3.5 shrink-0 object-contain"
+                />
+                {item.skill}
+              </span>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className="mx-auto w-[78%] max-w-[340px] lg:w-full lg:max-w-none">
